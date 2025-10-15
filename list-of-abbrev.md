@@ -1,6 +1,6 @@
 # List of Abbreviations
-| Abbreviation | Description  |   |   |   |
-|--------------|--------------|---|---|---|
-| HV           | High Voltage |   |   |   |
-|              |              |   |   |   |
-|              |              |   |   |   |
+| Abbreviation | Description |
+| ----------- | ----------- |
+| BMS | Battery Management System |
+| HV | High Voltage |
+| TB | Tractive Battery |
