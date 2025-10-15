@@ -1,4 +1,4 @@
-# Introduction page, which contains Formula SAE and NUS Formula SAE Team segments
+# Introduction
 
 ## Formula SAE
 _Content for Formula SAE_
