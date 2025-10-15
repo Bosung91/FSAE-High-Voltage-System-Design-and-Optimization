@@ -1,1 +1,1 @@
-![NUS Logo](Figures/NUS_logo_full-horizontal.jpg)
+![NUS Logo](./Figures/NUS_logo_full-horizontal.jpg)
