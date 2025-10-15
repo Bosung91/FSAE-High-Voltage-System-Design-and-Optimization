@@ -14,9 +14,9 @@ Suh Bosung (A0258007H)
 Mr. Lim Hong Wee  
 
 ## Table of Contents
-List of Abbreviations  
+[List of Abbreviations](list-of-abbrev.md)  
 1. [Introduction](introduction.md)
-    1. [Formula SAE](##formula-sae)
+    1. [Formula SAE](introduction.md/##formula-sae)
     2. [NUS Formula SAE Team](##nus-formula-sae-team)
 2. Objective and Scope
     1. Formula SAE Michigan
