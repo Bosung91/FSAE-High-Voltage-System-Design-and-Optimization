@@ -16,8 +16,8 @@ Mr. Lim Hong Wee
 ## Table of Contents
 [List of Abbreviations](list-of-abbrev.md)  
 1. [Introduction](introduction.md)
-    1. [Formula SAE](introduction.md/##formula-sae)
-    2. [NUS Formula SAE Team](##nus-formula-sae-team)
+    1. [Formula SAE](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/introduction.html#formula-sae)
+    2. [NUS Formula SAE Team](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/introduction.html#nus-formula-sae-team)
 2. Objective and Scope
     1. Formula SAE Michigan
     2. HV Department Job Scope
