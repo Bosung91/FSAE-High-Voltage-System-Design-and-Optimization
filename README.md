@@ -1,3 +1,3 @@
-<img src='./Figures/NUS_logo_full-horizontal.jpg' width='600' height='372'>  
+<img src='./Figures/NUS_logo_full-horizontal.jpg'>  
 
 <img src='./Figures/NUS Formula SAE Logo.png'>
