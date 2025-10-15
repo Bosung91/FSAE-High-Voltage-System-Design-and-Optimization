@@ -15,9 +15,9 @@ Mr. Lim Hong Wee
 
 ## Table of Contents
 List of Abbreviations  
-1. Introduction
-    1. Formula SAE
-    2. NUS Formula SAE Team
+1. [Introduction](introduction.md)
+    1. [Formula SAE](##formula-sae)
+    2. [NUS Formula SAE Team](##nus-formula-sae-team)
 2. Objective and Scope
     1. Formula SAE Michigan
     2. HV Department Job Scope
