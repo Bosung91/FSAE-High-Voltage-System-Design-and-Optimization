@@ -40,3 +40,5 @@ Mr. Lim Hong Wee
 7. [Mechanical Aspects of PCB Design](mech-aspects-of-pcb-design.md)
     1. [Enclosures](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/mech-aspects-of-pcb-design.html#enclosures)
     2. [Arrangement](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/mech-aspects-of-pcb-design.html#arrangement)
+8. [References](references.md)
+9. [Appendices](appendices.md)
