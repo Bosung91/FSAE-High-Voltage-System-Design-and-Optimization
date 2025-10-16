@@ -2,9 +2,6 @@
 
 [Table of Contents](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/#table-of-contents)  
 
-## Formula SAE
-_Content for Formula SAE_
-
 ## NUS Formula SAE Team
 _Content for NUS Formula SAE Team_  
 
