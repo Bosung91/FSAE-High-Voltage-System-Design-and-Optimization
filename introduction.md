@@ -7,4 +7,4 @@ _Figure 1: R26e Team Structure_
 
 [Next Section: Objective and Scope](objective-and-scope.md)  
 
-[Table of Contents](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/#table-of-contents)  
+[List of Abbreviations](list-of-abbrev.md)

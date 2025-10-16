@@ -6,6 +6,8 @@ The team competed in the FSAE EV category in June 2025 and achieved an overall p
 ## HV Deparment Job Scope
 This report primarily focuses on High Voltage (HV) system of R26e, which comprises Precharge-Discharge PCB, Tractive Battery PDM PCB, HV Distribution PCB, and their respective enclosures and wiring.  
 
+[Previous Section: Objective and Scope](objective-and-scope.md)
+
 [Next Section: Design Statement and Problem Definition](design-statement-and-problem-definition.md)  
 
-[Table of Contents](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/#table-of-contents)  
+[List of Abbreviations](list-of-abbrev.md)
