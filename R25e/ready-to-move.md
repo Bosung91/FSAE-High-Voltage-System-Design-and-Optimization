@@ -12,9 +12,9 @@ _Content_
 ## Testing and Validation
 _Content_  
 
-[Previous Section: R26e: Tractive Battery PDM PCB](tractive-battery-pdm.md)
+[Previous Section: R25e: Shutdown Latch PCB](shutdown-latch.md)
 
-[Next Section: R26e: HV Distribution PCB](hv-distribution-pcb.md)  
+[Next Section: R25evo](../R25evo/r25evo.md)  
 
 [List of Abbreviations](list-of-abbrev.md)
 
