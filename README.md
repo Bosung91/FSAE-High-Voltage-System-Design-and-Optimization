@@ -35,8 +35,7 @@ Mr. Lim Hong Wee
 5. [R25evo](./R25evo/r25evo.md)
     1. [Design]()
     2. [Prototyping]()
-    3. [Testing & Validation]()
-<!--- 
+    3. [Testing & Validation]() 
 6. [R26e](./R26e/r26e.md)
     1. [Precharge-Discharge PCB](./R26e/precharge-discharge-pcb.md)
         1. [Design](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/precharge-discharge-pcb.html#design)
@@ -52,7 +51,6 @@ Mr. Lim Hong Wee
         3. [Testing & Validation](#)
     4. [Mechanical Aspects of PCB Design](./R26e/mech-aspects-of-pcb-design.md)
         1. [Enclosures](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/mech-aspects-of-pcb-design.html#enclosures)
-        2. [Arrangement](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/mech-aspects-of-pcb-design.html#arrangement) 
---->
+        2. [Arrangement](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/mech-aspects-of-pcb-design.html#arrangement)
 7. [References](references.md)
 8. [Appendices](appendices.md)
