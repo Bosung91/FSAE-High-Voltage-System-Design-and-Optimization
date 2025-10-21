@@ -12,7 +12,7 @@ _Content_
 ## Testing and Validation
 _Content_  
 
-[Previous Section: R26e: Tractive Battery PDM PCB](tractive-battery-pdm.md)
+[Previous Section: R26e: Precharge-Discharge PCB](precharge-discharge-pcb.md)
 
 [Next Section: R26e: HV Distribution PCB](hv-distribution-pcb.md)  
 
