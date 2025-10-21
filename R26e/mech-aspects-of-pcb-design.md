@@ -4,7 +4,9 @@
 _Content_
 
 ## Arrangement
-_Content_  
+_Content_
+
+---
 
 [Previous Section: R26e: HV Distribution PCB](hv-distribution-pcb.md)
 

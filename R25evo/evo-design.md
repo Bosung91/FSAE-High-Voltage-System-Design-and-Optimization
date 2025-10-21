@@ -4,7 +4,9 @@
 _Content_
 
 ## Section n
-_Content_  
+_Content_
+
+---
 
 [Previous Section: R25evo](r25evo.md)
 
