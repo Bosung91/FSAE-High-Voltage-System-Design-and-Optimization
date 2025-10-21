@@ -4,15 +4,19 @@
 The NUS FSAE team's goal for R26e is to achieve consistent performance in the endurance event through enhanced reliability to raise the team's overall ranking.  
 
 Thus, to achieve the team's goal, the design statement for the HV department would be:  
-_"To design and optimize HV system to be **rule-compliant**, **reliable** and **safe**."_
+_'To design and optimize HV system to be **rule-compliant**, **reliable** and **safe**.'_
 
 ## Problem Definition
 Based on R25e's performance in FSAE EV 2025, the following problems surfaced.
 
-### 
+### Problem 1
+
+### Problem 2
+
+### Problem n
 
 [Previous Section: Objective and Scope](objective-and-scope.md)
 
-[Next Section: Precharge-Discharge PCB](precharge-discharge-pcb.md)  
+[Next Section: R25e](./R25e/r25e.md)  
 
 [List of Abbreviations](list-of-abbrev.md)
