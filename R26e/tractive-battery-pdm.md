@@ -1,4 +1,4 @@
-[Table of Contents](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/#table-of-contents)  
+# Tractive Battery PDM PCB
 
 ## Design
 _Content_
@@ -17,5 +17,3 @@ _Content_
 [Next Section: R26e: HV Distribution PCB](hv-distribution-pcb.md)  
 
 [List of Abbreviations](list-of-abbrev.md)
-
-[Table of Contents](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/#table-of-contents)

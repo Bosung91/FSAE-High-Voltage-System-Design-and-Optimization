@@ -1,4 +1,4 @@
-[Table of Contents](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/#table-of-contents)  
+# Ready to Move PCB
 
 ## Design
 _Content_
@@ -17,5 +17,3 @@ _Content_
 [Next Section: R25evo](../R25evo/r25evo.md)  
 
 [List of Abbreviations](list-of-abbrev.md)
-
-[Table of Contents](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/#table-of-contents)
