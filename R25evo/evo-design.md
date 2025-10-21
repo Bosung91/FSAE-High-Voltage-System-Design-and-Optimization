@@ -8,6 +8,6 @@ _Content_
 
 [Previous Section: R25evo](r25evo.md)
 
-[Next Section: R25evo: Prototyping](precharge-discharge-pcb.md)  
+[Next Section: R25evo: Prototyping](evo-prototyping.md)  
 
 [List of Abbreviations](list-of-abbrev.md)
