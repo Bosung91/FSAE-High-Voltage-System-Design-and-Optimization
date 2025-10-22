@@ -33,16 +33,21 @@ If there is no fault, then to reset the Shutdown Latch, simply press the reset b
 
 ## Simulation
 ### Falstad
+_Explain how the schematic is being tested as per car start up sequence_
 
 ## Prototyping
 ### Manufacturing
+_Interhorizon Pte. Ltd. manufactures PCBs for us, just briefly go through this section_
 
 ### Testbench
+_Mention car start up sequence and how we induced errors to check Shutdown Latch functionality_
 
 ## Testing and Validation
 ### Test Run
+_Mention how the team was able to troubleshoot the car immediately thanks to dashboard indicators connected to Shutdown Latch_
 
 ### Technical Inspection
+_Talk about ESF & EV Active_
 
 ---
 
