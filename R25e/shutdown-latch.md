@@ -3,12 +3,14 @@
 ## Design
 ### Rule
 ![EV.7.1](../Figures/Rule_Shutdown%20Circuit%201.png)  
-_Figure 1: Screenshot of FSAE Rule EV.7.1_  
+_Figure 1: Screenshot of FSAE Rule EV.7.1_
 
 ---
 
 ![EV.7.2](../Figures/Rule_Shutdown%20Circuit%202.png)  
-_Figure 2: Screenshot of FSAE Rule EV.7.2_  
+_Figure 2: Screenshot of FSAE Rule EV.7.2_
+
+---
 
 The purpose of Shutdown Latch PCB is to incorporate normally open and independent BMS, IMD and BSPD circuits as dictated by the rules shown in Figure 1, while opening the entire Shutdown Circuit when any of the three error signals is sent to the PCB as dictated by the rules shown in Figure 2.
 
@@ -16,7 +18,9 @@ The purpose of Shutdown Latch PCB is to incorporate normally open and independen
 To fulfill the requirements set by the rule, the following schematic has been designed.  
 
 ![Shutdown Latch PCB Schematic](../Figures/Shutdown%20Latch%20PCB%20Simplified%20Schematic.png)  
-_Figure 3: Shutdown Latch PCB Falstad Schematic_  
+_Figure 3: Shutdown Latch PCB Falstad Schematic_
+
+---
 
 The Shutdown Latch consists of a series of double-pole-single-throw relays which acts as series switches to in the shutdown line based on the BMS, IMD and BSPD. Each of the IMD, BPSD and BMS circuitry on the shutdown latch functions the same way.  
 
