@@ -22,6 +22,8 @@ _Figure 3: Shutdown Latch PCB Falstad Schematic_
 
 ---
 
+_Summarise this section, it is too lengthy_  
+
 The Shutdown Latch consists of a series of double-pole-single-throw relays which acts as series switches to in the shutdown line based on the BMS, IMD and BSPD. Each of the IMD, BPSD and BMS circuitry on the shutdown latch functions the same way.  
 
 When the car power cycles, the relays are by default open since there is no current flowing to the relay coils. Although Q1 is closed (assuming there is no fault), Q2 is open as the reset button has not been actuated. This also means that the shutdown line is opened whenever the car power cycles. If there is a fault, then the reset button will close Q2, but Q1 is opened and hence current is still unable to flow to the relay coil. Therefore, the reset button does not do anything if there is a fault in the IMD, AMS or BSPD. Since the PMOS gate is wired in parallel to the relay coil, when current is flowing through the relay coil, the voltage at the PMOS gate will be at GLV+, and when no current is flowing through the relay coil, the voltage at the PMOS gate will be pulled down to GND. The PMOS is used to power the LEDs on the dashboard, so when the relays coils are not powered – the PMOS is closed, and the LEDs are powered on the dashboard. The opposite is true as well.  
