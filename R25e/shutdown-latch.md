@@ -33,7 +33,7 @@ If there is no fault, then to reset the Shutdown Latch, simply press the reset b
 
 ## Simulation
 ### Falstad
-_Explain how the schematic is being tested as per car start up sequence_
+_Explain how the schematic is being tested as per car start up sequence (refer to 26 Electrical Powertrain 101 for Falstad links)_
 
 ## Prototyping
 ### Manufacturing
