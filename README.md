@@ -18,7 +18,7 @@ Mr. Lim Hong Wee
 1. [Introduction](introduction.md)
     1. [NUS Formula SAE Team](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/introduction.html#nus-formula-sae-team)
 2. [Objective and Scope](objective-and-scope.md)
-    1. [Objective]()
+    1. [Objective](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/objective-and-scope.html#objective)
     2. [HV Department Job Scope](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/objective-and-scope.html#hv-deparment-job-scope)
 3. [Design Statement and Problem Definition](design-statement-and-problem-definition.md)
     1. [Design Statement](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/design-statement-and-problem-definition.html#design-statement)
