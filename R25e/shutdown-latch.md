@@ -27,6 +27,8 @@ The Shutdown Latch PCB consists normally open double-pole-single-throw relays wh
 ![Shutdown Latch PCB Block Diagram](../Figures/Shutdown%20Latch%20PCB%20Block%20Diagram.jpg)  
 _Figure 4: Shutdown Latch PCB Block Diagram_
 
+---
+
 ### Speccing Components
 
 
