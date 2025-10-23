@@ -1,7 +1,7 @@
 # Design Statement and Problem Definition
 
 ## Design Statement
-The NUS FSAE team's goal for R26e is to achieve consistent performance in the endurance event through enhanced reliability to raise the team's overall ranking.  
+The NUS FSAE team's goal for R26e is to achieve consistent performance in the endurance event through enhanced reliability.  
 
 Thus, to achieve the team's goal, the design statement for the HV department would be:  
 _'To design and optimize HV system to be **rule-compliant**, **reliable** and **safe**.'_
