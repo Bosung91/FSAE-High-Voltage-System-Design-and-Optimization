@@ -24,7 +24,8 @@ _Figure 3: Shutdown Latch PCB Altium Schematic_
 
 The Shutdown Latch PCB consists normally open double-pole-single-throw relays which act as series switches in the Shutdown Circuit for BMS, IMD and BSPD each. BMS, IMD and BSPD circuits in the Shutdown Latch PCB function the same way. The following block diagram explains the functionality of Shutdown Latch PCB.  
 
-![Shutdown Latch PCB Block Diagram](../Figures/Shutdown%20Latch%20PCB%20Block%20Diagram.jpg)
+![Shutdown Latch PCB Block Diagram](../Figures/Shutdown%20Latch%20PCB%20Block%20Diagram.jpg)  
+_Figure 4: Shutdown Latch PCB Block Diagram_
 
 ### Speccing Components
 
