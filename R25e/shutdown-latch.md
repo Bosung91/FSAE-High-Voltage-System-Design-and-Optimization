@@ -17,8 +17,8 @@ The purpose of Shutdown Latch PCB is to incorporate normally open and independen
 ### Schematic
 To fulfill the requirements set by the rule, the following schematic has been designed.  
 
-![Shutdown Latch PCB Schematic](../Figures/Shutdown%20Latch%20PCB%20Simplified%20Schematic.png)  
-_Figure 3: Shutdown Latch PCB Falstad Schematic_
+![Shutdown Latch PCB Detailed Schematic](../Figures/Shutdown%20Latch%20PCB%20Detailed%20Schematic.png)  
+_Figure 3: Shutdown Latch PCB Altium Schematic_
 
 ---
 
