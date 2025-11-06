@@ -14,7 +14,7 @@ _show Cascadia Software Manual_
 
 ---
 
-[Previous Section: Introduction](objective-and-scope.md)
+[Previous Section: Objective and Scope](objective-and-scope.md)
 
 [Next Section: R25Evo](./R25evo/r25evo.md)  
 
