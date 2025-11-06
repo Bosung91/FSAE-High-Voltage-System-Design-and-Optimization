@@ -15,7 +15,7 @@ Detailed explanation of changing motor controller from BAMOCAR D3 400-400 to CM2
 ## Timeline
 Introducing a new motor controller to an existing HV architecture is a tremendous challenge, which requires thorough planning and execution months before R26E design phase.  
 
-![timeline](./Figures/Timeline.png)  
+<center><img src='./Figures/Timeline.png'></center>  
 <center><i>Figure 2: Timeline</i></center>
 
 ---
@@ -33,7 +33,7 @@ No changes were required for HV PCBs prior to R25Evo test run as they were CM200
 ### R25Evo testbench
 R25Evo testbench was designed to validate compatibility and functionality of exisiting and modified components required.  
 
-<center>![testbench](./Figures/R25Evo%20Testbench.jpg)</center>  
+<center><img src='./Figures/R25Evo Testbench.jpg'></center>  
 <center><i>Figure 3: R25Evo Testbench</i></center>
 
 ---
@@ -47,7 +47,7 @@ Using the testbench, following HV functionalities of R25Evo were be tested:
 
 HV PCBs involved in the above functionalities were installed in Tractive Battery enclosure as shown in _Figure 4_ below.  
 
-<center>![accumulator](./Figures/R25E%20Tractive%20Battery%20Internals.jpg)</center>  
+<center><img src='./Figures/R25E Tractive Battery Internals.jpg'></center>  
 <center><i>Figure 4: R25E Tractive Battery Enclosure Internals</i></center>  
 
 ---
