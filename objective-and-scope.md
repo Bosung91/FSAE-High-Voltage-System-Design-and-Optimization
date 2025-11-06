@@ -16,7 +16,9 @@ Detailed explanation of changing motor controller from BAMOCAR D3 400-400 to CM2
 Introducing a new motor controller to an existing HV architecture is a tremendous challenge, which requires thorough planning and execution months before R26E design phase.  
 
 ![timeline](./Figures/Timeline.png)  
-_Figure 2: Timeline_  
+_Figure 2: Timeline_
+
+---
 
 For HV System Design and Optimization, emphasis is on the following tasks:  
 1. Finalise EE shelf, PCBs for R25Evo & R26E, wires for R25Evo
@@ -32,7 +34,9 @@ No changes were required for HV PCBs prior to R25Evo test run as they were CM200
 R25Evo testbench was designed to validate compatibility and functionality of exisiting and modified components required.  
 
 ![testbench](./Figures/R25Evo%20Testbench.jpg)  
-_Figure 3: R25Evo Testbench_  
+_Figure 3: R25Evo Testbench_
+
+---
 
 The testbench was set up as shown in _Figure 3_, which represents the entire powertrain architecture in R25E.  
 
@@ -44,7 +48,11 @@ Using the testbench, following HV functionalities of R25Evo were be tested:
 HV PCBs involved in the above functionalities were installed in Tractive Battery enclosure as shown in _Figure 4_ below.  
 
 ![accumulator](./Figures/R25E%20Tractive%20Battery%20Internals.jpg)  
-_Figure 4: R25E Tractive Battery Enclosure Internals_
+_Figure 4: R25E Tractive Battery Enclosure Internals_  
+
+---
+
+HV PCBs involved are: Precharge-Discharge PCB, Tractive Battery PDM PCB and HV Distribution PCB, as shown in _Figure 4_.
 
 ### R25Evo test run
 After validating powertrain functionalities with CM200DX on the testbench, test runs were conducted to determine whether HV system functions as designed when R25Evo is running with CM200DX and to finalise HV system design for R26E based on results gathered from the test runs.
