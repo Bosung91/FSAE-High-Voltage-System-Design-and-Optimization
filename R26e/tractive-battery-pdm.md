@@ -9,9 +9,6 @@ _Content_
 ## Prototyping
 _Content_
 
-## Testing and Validation
-_Content_
-
 ---
 
 [Previous Section: R26E: Precharge-Discharge PCB](precharge-discharge-pcb.md)
