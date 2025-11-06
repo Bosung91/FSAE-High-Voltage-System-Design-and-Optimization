@@ -5,8 +5,8 @@ This section focuses on how R25e has been modified to test and validate design c
 
 ---
 
-[Previous Section: R25e: Ready to Move PCB](../R25e/ready-to-move.md)
+[Previous Section: Context of Problem](../context-of-problem.md)
 
-[Next Section: R25evo: Design](evo-design.md)  
+[Next Section: R25Evo: Purpose](evo-purpose.md)  
 
 [List of Abbreviations](list-of-abbrev.md)
