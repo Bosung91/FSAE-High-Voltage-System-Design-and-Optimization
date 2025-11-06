@@ -1,6 +1,6 @@
-<img src='./Figures/NUS_logo_full-vertical.jpg'>  
+<center><img src='./Figures/NUS_logo_full-vertical.jpg'></center>  
 
-<img src='./Figures/NUS Formula SAE Logo.png'>  
+<center><img src='./Figures/NUS Formula SAE Logo.png'></center>  
 
 # **CDE4301 Report**
 ## FTS-433: FSAE High Voltage System Design and Optimization

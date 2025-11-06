@@ -33,8 +33,8 @@ No changes were required for HV PCBs prior to R25Evo test run as they were CM200
 ### R25Evo testbench
 R25Evo testbench was designed to validate compatibility and functionality of exisiting and modified components required.  
 
-![testbench](./Figures/R25Evo%20Testbench.jpg)  
-_Figure 3: R25Evo Testbench_
+<center>![testbench](./Figures/R25Evo%20Testbench.jpg)</center>  
+<center><i>Figure 3: R25Evo Testbench</i></center>
 
 ---
 
@@ -47,8 +47,8 @@ Using the testbench, following HV functionalities of R25Evo were be tested:
 
 HV PCBs involved in the above functionalities were installed in Tractive Battery enclosure as shown in _Figure 4_ below.  
 
-![accumulator](./Figures/R25E%20Tractive%20Battery%20Internals.jpg)  
-_Figure 4: R25E Tractive Battery Enclosure Internals_  
+<center>![accumulator](./Figures/R25E%20Tractive%20Battery%20Internals.jpg)</center>  
+<center><i>Figure 4: R25E Tractive Battery Enclosure Internals</i></center>  
 
 ---
 
