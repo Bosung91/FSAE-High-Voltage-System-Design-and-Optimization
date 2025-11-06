@@ -25,7 +25,7 @@ Mr. Lim Hong Wee
     2. [Transition to CM200DX](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/context-of-problem.html#transition-to-cm200dx)
 4. [R25Evo](./R25evo/r25evo.md)
     1. [Purpose]()
-    2. [Issues Surfaced]() 
+    2. [Issues Surfaced]()
 5. [R26E](./R26e/r26e.md)
     1. [Precharge-Discharge PCB](./R26e/precharge-discharge-pcb.md)
         1. [Design](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/precharge-discharge-pcb.html#design)

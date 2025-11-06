@@ -1,6 +1,6 @@
 # R25Evo
 
-## Purpsose
+## Purpose
 _content_  
 
 ## Issues
