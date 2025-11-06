@@ -16,7 +16,7 @@ Detailed explanation of changing motor controller from BAMOCAR D3 400-400 to CM2
 Introducing a new motor controller to an existing HV architecture is a tremendous challenge, which requires thorough planning and execution months before R26E design phase.  
 
 ![timeline](./Figures/Timeline.png)  
-_Figure 2: Timeline_
+<center>_Figure 2: Timeline_</center>
 
 ---
 
