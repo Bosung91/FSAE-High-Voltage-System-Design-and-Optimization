@@ -1,5 +1,4 @@
-# R25evo Testing and Validation
-
+# R25Evo Issues Surfaced
 ## Section 1
 _Content_
 
@@ -8,7 +7,7 @@ _Content_
 
 ---
 
-[Previous Section: R25evo](evo-prototyping.md)
+[Previous Section: R25evo](evo-purpose.md)
 
 [Next Section: R26e](../R26e/r26e.md)  
 

@@ -1,7 +1,7 @@
-# R25evo
+# R25Evo
 
-## Testbed for major design changes planned for R26e
-This section focuses on how R25e has been modified to test and validate design changes planned for R26e.
+## Testbed for major design changes planned for R26E
+This section focuses on how R25e has been modified to test and validate design changes planned for R26E.
 
 ---
 
