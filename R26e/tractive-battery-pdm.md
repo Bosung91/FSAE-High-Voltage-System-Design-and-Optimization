@@ -14,8 +14,8 @@ _Content_
 
 ---
 
-[Previous Section: R26e: Precharge-Discharge PCB](precharge-discharge-pcb.md)
+[Previous Section: R26E: Precharge-Discharge PCB](precharge-discharge-pcb.md)
 
-[Next Section: R26e: HV Distribution PCB](hv-distribution-pcb.md)  
+[Next Section: R26E: HV Distribution PCB](hv-distribution-pcb.md)  
 
 [List of Abbreviations](list-of-abbrev.md)

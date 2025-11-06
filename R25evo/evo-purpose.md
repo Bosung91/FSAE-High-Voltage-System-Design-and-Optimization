@@ -8,8 +8,8 @@ _Content_
 
 ---
 
-[Previous Section: R25evo](r25evo.md)
+[Previous Section: R25Evo](r25evo.md)
 
-[Next Section: R25evo: Prototyping](evo-issues.md)  
+[Next Section: R25Evo: Issues](evo-issues.md)  
 
 [List of Abbreviations](list-of-abbrev.md)

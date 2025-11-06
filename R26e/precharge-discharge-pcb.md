@@ -14,8 +14,8 @@ _Content_
 
 ---
 
-[Previous Section: R26e](r26e.md)
+[Previous Section: R26E](r26e.md)
 
-[Next Section: R26e: Tractive Battery PDM PCB](tractive-battery-pdm.md)  
+[Next Section: R26E: Tractive Battery PDM PCB](tractive-battery-pdm.md)  
 
 [List of Abbreviations](list-of-abbrev.md)
