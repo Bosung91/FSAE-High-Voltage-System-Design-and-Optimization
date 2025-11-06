@@ -42,4 +42,4 @@ Mr. Lim Hong Wee
 6. [Shortcomings]()
 7. [Future Work]()
 8. [References](references.md)
-9. [Appendices](appendices.md)
+9. [Appendix](appendix.md)
