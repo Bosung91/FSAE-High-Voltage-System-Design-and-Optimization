@@ -52,7 +52,7 @@ _Figure 4: R25E Tractive Battery Enclosure Internals_
 
 ---
 
-HV PCBs involved are: Precharge-Discharge PCB, Tractive Battery PDM PCB and HV Distribution PCB, as shown in _Figure 4_.
+HV PCBs involved are: Precharge-Discharge PCB (red), Tractive Battery PDM PCB (orange) and HV Distribution PCB (green), as shown in _Figure 4_.
 
 ### R25Evo test run
 After validating powertrain functionalities with CM200DX on the testbench, test runs were conducted to determine whether HV system functions as designed when R25Evo is running with CM200DX and to finalise HV system design for R26E based on results gathered from the test runs.
