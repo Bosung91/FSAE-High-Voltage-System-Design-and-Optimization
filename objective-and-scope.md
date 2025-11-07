@@ -13,12 +13,12 @@ To achieve the team goal, High Voltage (HV) department's goal is as following:
 
 The testbed for CM200DX called, <i>R25Evo</i>, as modifications have been made to R25E to integrate CM200DX into R25E powertrain architecture.  
 
-Detailed explanation of changing motor controller from BAMOCAR D3 400-400 to CM200DX will be explained in the next section, <i>Context of Problem</i>.
+Detailed explanation of changing motor controller from <b>BAMOCAR D3 400-400</b> to <b>CM200DX</b> will be explained in the next section, <i>Context of Problem</i>.
 </p>
 
 ## Timeline
 <p style='text-align: justify'>
-Introducing a new motor controller to an existing HV architecture is a tremendous challenge, which requires thorough planning and execution months before R26E design phase.
+Introducing a new motor controller to an existing HV architecture is a tremendous technical challenge, which requires thorough planning and execution months before R26E design phase.
 </p>  
 
 <center><img src='./Figures/Timeline.png'></center>  
@@ -26,17 +26,16 @@ Introducing a new motor controller to an existing HV architecture is a tremendou
 
 ---
 
-<p style='text-align: justify'>
-For HV System Design and Optimization, emphasis is on the following tasks:</p>
+For HV System Design and Optimization, emphasis is on the following tasks:
 1. Finalise EE shelf, PCBs for R25Evo & R26E, wires for R25Evo
 2. R25Evo testbench
 3. R25Evo test run  
 
 ### Finalise EE shelf, PCBs for R25Evo & R26E, wires for R25Evo
 <p style='text-align: justify'>
-Changes were identified for R25E powertrain architecture to accommodate CM200DX and to ensure 2026 season rule compliancy. Based on the changes identified, new PCBs need to be designed, prototyped and tested.  
+Changes were identified for R25E powertrain architecture to accommodate <b>CM200DX</b> and to ensure 2026 season rule compliancy. Based on the changes identified, new PCBs need to be designed, prototyped and tested.  
 
-No changes were required for HV PCBs prior to R25Evo test run as they were CM200DX compatible and 2026 season rule compliant.
+No changes were required for HV PCBs prior to R25Evo test run as they were <b>CM200DX</b> compatible and 2026 season rule compliant.
 </p>
 
 ### R25Evo testbench
@@ -50,15 +49,15 @@ R25Evo testbench was designed to validate compatibility and functionality of exi
 ---
 
 <p style='text-align: justify'>
-The testbench was set up as shown in _Figure 3_, which represents the entire powertrain architecture in R25E.  
+The testbench was set up as shown in <i>Figure 3</i>, which represents the entire powertrain architecture in R25E.</p>  
 
-Using the testbench, following HV functionalities of R25Evo were be tested:</p>
+Using the testbench, following HV functionalities of R25Evo were be tested:
 - Precharge Sequence
 - Closing TS Circuit
 - Discharge Sequence
 
 <p style='text-align: justify'>
-HV PCBs involved in the above functionalities were installed in Tractive Battery enclosure as shown in _Figure 4_ below.
+HV PCBs responsible for the above functionalities were installed in Tractive Battery enclosure as shown in <i>Figure 4</i> below.
 </p>  
 
 <center><img src='./Figures/R25E Tractive Battery Internals.jpg'></center>  
@@ -67,12 +66,12 @@ HV PCBs involved in the above functionalities were installed in Tractive Battery
 ---
 
 <p style='text-align: justify'>
-HV PCBs involved are: Precharge-Discharge PCB (blue), Tractive Battery PDM PCB (orange) and HV Distribution PCB (green), as shown in _Figure 4_.
+HV PCBs are: Precharge-Discharge PCB (blue), Tractive Battery PDM PCB (orange) and HV Distribution PCB (green), as shown in <i>Figure 4</i>.
 </p>
 
 ### R25Evo test run
 <p style='text-align: justify'>
-After validating powertrain functionalities with CM200DX on the testbench, test runs were conducted to determine whether HV system functions as designed when R25Evo is running with CM200DX and to finalise HV system design for R26E based on results gathered from the test runs.
+After validating powertrain functionalities with <b>CM200DX</b> on the testbench, test runs were conducted to determine whether HV system functions as designed when R25Evo is running with <b>CM200DX</b> and to finalise HV system design for R26E based on results gathered from the test runs.
 </p>
 
 ## Scope
