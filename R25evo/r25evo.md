@@ -66,7 +66,7 @@ To determine whether overvoltage, overcurrent, or exceeding power limit or maxim
 
 <center><i>Figure 7: Parameter Comparison</i></center>
 <p style='text-align: justify'>
-Based on the comparison of parameters, resistor meltdown is unlikely due to underspeccing for R25Evo precharge circuit.  
+Based on the comparison of parameters, resistor meltdown is <b>unlikely</b> due to underspeccing for R25Evo precharge circuit.  
 
 Refer to <a href='#'>Appendix A</a> for calculations of actual parameters.
 </p>
