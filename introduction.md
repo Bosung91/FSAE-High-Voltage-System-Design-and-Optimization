@@ -4,7 +4,8 @@
 <p style='text-align: justify'>
 The NUS Formula SAE (FSAE) Team is an engineering project under the Engineering Design and Innovation Centre (EDIC) and comprises of Electrical and Mechanical Engineering Students. A total of 27 team members make up the R26E team, consisting of 13 fourth year students and 14 third year students, who will be building the R26E race car.
 </p>  
-:::mermaid
+
+```mermaid
 flowchart TD
     A[**R26E TEAM**] --> B[**POWERTRAIN**]
     A --> C[**Future Systems**<br/>🔴 Khaizuran Khalid<br/>🔵 Loh Zhi Hao Jonavan]
@@ -39,7 +40,7 @@ flowchart TD
 
     style B1 fill:transparent, stroke:transparent;
     style D1 fill:transparent, stroke:transparent;
-:::
+```
 
 <center><i>Figure 1: R26E Team Structure</i></center>
 
