@@ -3,17 +3,17 @@
 ## Team Goal
 <p style='text-align: justify'>
 Based on R25E's performance in 2025 FSAE Michigan, the team has formed the following goal:  
-<center><i>Decrease average lap time in Endurance by <b>10%</b> through <b>improved reliability</b></i></center>
+<h3><center><i>Decrease average lap time in Endurance by <b>10%</b> through <b>improved reliability</b></i></center></h3>
 </p>
 
 ## High Voltage Department Goal
 <p style='text-align: justify'>
 To achieve the team goal, High Voltage (HV) department's goal is as following:  
-<center><i><b>System integration and optimization</b> of CM200DX motor controller</i></center>  
+<h3><center><i><b>System integration and optimization</b> of CM200DX motor controller</i></center></h3>  
 
-The testbed for CM200DX called, <i>R25Evo</i>, as modifications have been made to R25E to integrate CM200DX into R25E powertrain architecture.  
+The testbed for <b>CM200DX</b> called, <i>R25Evo</i>, as modifications have been made to R25E to integrate <b>CM200DX</b> into R25E powertrain architecture.  
 
-Detailed explanation of changing motor controller from <b>BAMOCAR D3 400-400</b> to <b>CM200DX</b> will be explained in the next section, <i>Context of Problem</i>.
+Brief explanation of changing motor controller from <b>BAMOCAR D3 400-400</b> to <b>CM200DX</b> will be explained in the next section, <i>Context of Problem</i>.
 </p>
 
 ## Timeline
