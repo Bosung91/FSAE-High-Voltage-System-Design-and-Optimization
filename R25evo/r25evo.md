@@ -19,6 +19,7 @@ Precharge resistors completely melted down, and it could be due to two possible 
 To determine whether overvoltage, overcurrent, or exceeding power limit or maximum operating temperature caused the meltdown, calculated values for those parameters were compared against datasheet values.
 </p>
 
+<div>
 <center>
 
 |                         | Datasheet | Actual | Exceeded Datasheet? |
@@ -29,13 +30,17 @@ To determine whether overvoltage, overcurrent, or exceeding power limit or maxim
 | Max Operating Voltage/V | 500       | 333.75 | No                  |
 
 </center>
+</div>
+
 <center><i>Figure 7: Parameter Comparison</i></center>
 <p style='text-align: justify'>
 Based on the comparison of parameters, resistor meltdown is unlikely due to underspeccing for R25Evo precharge circuit.  
 
 Refer to <a href='#'>Appendix A</a> for calculations of actual parameters.
 </p>
+
 ### Insufficient heat dissipation by heat sink
+
 
 ## PCB board-to-wire Connectors
 <p style='text-align: justify'>
