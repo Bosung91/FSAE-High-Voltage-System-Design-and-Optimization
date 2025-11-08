@@ -26,7 +26,7 @@ Mr. Lim Hong Wee
 4. [R25Evo](./R25evo/r25evo.md)
     1. [Purpose](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R25evo/r25evo.html#purpose)
     2. [Issues](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R25evo/r25evo.html#issues)
-5. [R26E](./R26e/r26e.md)
+5. R26E
     1. [Precharge-Discharge PCB](./R26e/precharge-discharge-pcb.md)
         1. [Design](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/precharge-discharge-pcb.html#design)
         2. [Simulation](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/precharge-discharge-pcb.html#simulation)

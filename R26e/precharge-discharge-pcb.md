@@ -14,7 +14,7 @@ _Content_
 
 ---
 
-[Previous Section: R26E](r26e.md)
+[Previous Section: R25Evo](../R25evo/r25evo.md)
 
 [Next Section: R26E: Tractive Battery PDM PCB](tractive-battery-pdm.md)  
 
