@@ -82,7 +82,7 @@ After concluding that the resistors were specced properly, mechanical design of 
 <center><img src='../Figures/R25E Precharge-Discharge PCB Layer.png'></center>
 <center><i>Figure 9: 25 Precharge-Discharge PCB Layers</i></center>
 <p style='text-align: justify'>
-There are a total of three <b>thermal insulators</b> making up the PCB layers: solder resist, PP-006 and FR 4. Their thermal conductivities are shown in <i>Figure 10</i>.
+There are a total of three <b>thermal insulators</b> making up the PCB layers: solder resist, PP-006 and FR-4. Their thermal conductivities are shown in <i>Figure 10</i>.
 </p>
 
 <center>
@@ -113,7 +113,7 @@ There are a total of three <b>thermal insulators</b> making up the PCB layers: s
     <td class="tg-0lax">0.4</td>
   </tr>
   <tr>
-    <td class="tg-0lax">FR 4</td>
+    <td class="tg-0lax">FR-4</td>
     <td class="tg-0lax">0.25</td>
   </tr>
   <tr>
@@ -126,7 +126,7 @@ There are a total of three <b>thermal insulators</b> making up the PCB layers: s
 <center><i>Figure 10: Thermal Conductivities of PCB Layers</i></center>
 
 <p style='text-align: justify'>
-As one can notice from <i>Figure 10</i>, placing heat sink on surface opposite to precharge resistors, as shown in <i>Figure 11</i> is <b>as ineffective as not placing the heat sink</b>, since the layers insulate heat generated from precharge resistors from reaching the heat sink for proper heat dissipation. Thus, the earlier comparison of datasheet and actual values is <b>invalid</b> since the resistors were not properly heat sinked.
+As one can notice from <i>Figure 10</i>, placing heat sink on surface opposite to precharge resistors, as shown in <i>Figure 11</i> is <b>as ineffective as not placing the heat sink</b>, since the layers insulate heat generated from precharge resistors, preventing proper heat dissipation by the heat sink. Thus, the earlier comparison of datasheet and actual values is <b>invalid</b> since the resistors were not properly heat sinked.
 </p>
 
 <center><img src='../Figures/Burnt Precharge Resistors Side View.jpg'></center>
