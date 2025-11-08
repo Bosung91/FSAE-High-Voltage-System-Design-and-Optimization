@@ -213,7 +213,7 @@ The precharge signal state should be set as HIGH by ECU only when car is startin
 
 <p style='text-align: justify'>
 The following sections will explain the design changes implemented to <b>rectify</b> the above-mentioned issues for R26E HV system.
-</p>
+</p>  
 
 ---
 
