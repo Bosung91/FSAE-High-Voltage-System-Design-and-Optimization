@@ -136,18 +136,18 @@ As one can notice from <i>Figure 10</i>, placing heat sink on surface opposite t
 It can therefore be concluded with confidence that the precharge resistors melted down due to <b><u>insufficient heat dissipation during operation.</u></b>
 </p>
 
-<h2>PCB board-to-wire Connectors</h2>
-<h3>Symptom</h3>
+## PCB board-to-wire Connectors
+### Symptom
 <p style='text-align: justify'>
 R25Evo lost power intermittently mid drive.
 </p>  
 
-<h3>Diagnosis</h3>
+### Diagnosis
 <center><img src='../Figures/Precharge Signal_Abnormal.png'></center>
 <center><i>Figure 12: Abnormal Precharge Signal</i></center>
 
 <p style='text-align: justify'>
-Precharge signal (blue graph) oscillated as shown in <i>Figure 12</i> due to <b><u>loose connection from 25 TB PDM to IR+.</b></u>
+Precharge signal (blue graph) oscillated as shown in <i>Figure 12</i> due to <b><u>loose connection from 25 TB PDM to IR+.</u></b>
 </p>
 
 <center><img src='../Figures/Precharge Signal_Normal.png'></center>
