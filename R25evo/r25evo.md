@@ -134,15 +134,15 @@ As one can notice from <i>Figure 10</i>, placing heat sink on surface opposite t
 
 <p style='text-align: justify'>
 It can therefore be concluded with confidence that the precharge resistors melted down due to <b><u>insufficient heat dissipation during operation.</b></u>
-</p>  
+</p>
 
-## PCB board-to-wire Connectors
-### Symptom
+<h2>PCB board-to-wire Connectors</h2>
+<h3>Symptom</h3>
 <p style='text-align: justify'>
 R25Evo lost power intermittently mid drive.
 </p>  
 
-### Diagnosis
+<h3>Diagnosis</h3>
 <center><img src='../Figures/Precharge Signal_Abnormal.png'></center>
 <center><i>Figure 12: Abnormal Precharge Signal</i></center>
 
@@ -213,7 +213,7 @@ The precharge signal state should be set as HIGH by ECU only when car is startin
 
 <p style='text-align: justify'>
 The following sections will explain the design changes implemented to <b>rectify</b> the above-mentioned issues for R26E HV system.
-</p>  
+</p>
 
 ---
 
