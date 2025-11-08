@@ -133,7 +133,7 @@ As one can notice from <i>Figure 10</i>, placing heat sink on surface opposite t
 <center><i>Figure 11: Heat Sink Position</i></center>
 
 <p style='text-align: justify'>
-It can therefore be concluded with confidence that the precharge resistors melted down due to <b><u>insufficient heat dissipation during operation.</b></u>
+It can therefore be concluded with confidence that the precharge resistors melted down due to <b><u>insufficient heat dissipation during operation.</u></b>
 </p>
 
 <h2>PCB board-to-wire Connectors</h2>
