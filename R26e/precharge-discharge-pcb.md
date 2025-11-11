@@ -176,7 +176,7 @@ The findings are as under:
 - Average Power: 10.8W
 
 <p style='text-align: justify'>
-The peak power is lower than the resistor maximum power rating of 100W, and the average power dissipated is in the same order of magnitude as Electric Systems Form (ESF) value of 18.2W; ESF is a document that the team needs to submit for technical inspection prior to competition. <i>Figure 20</i> shows the Precharge segment of ESF.
+The peak power is lower than the resistor maximum power rating of 100W, and the average power dissipated is in the same order of magnitude as Electric Systems Form (ESF) value of 18.2W; ESF is a document that the team needs to submit for technical inspection prior to competition. <i>Figure 20</i> shows the Precharge segment of ESF. Detailed analysis setup and data extraction are in <a href='#' target='_blank'>Appendix #</a>.
 </p>
 <center><img src='../Figures/ESF Precharge Segment.png'></center>
 <center><i>Figure 20: ESF Precharge Segment</i></center>
