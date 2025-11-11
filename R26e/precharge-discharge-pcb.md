@@ -70,7 +70,7 @@ Non-inductive and high power TO-247 1.5kOhms resistor is used for Discharge and 
 
 #### Heat Sink
 <p style='text-align: justify'>
-TO-247 compatible aluminium heat sink is directly mounted to the resistors for effective cooling. Refer to <a href='#'>Appendix #</a> for calculations behind selecting the heat sink.
+TO-247 compatible aluminium heat sink is directly mounted to the resistors for effective cooling. Refer to <a href='#' target='_blank'>Appendix #</a> for calculations behind selecting the heat sink.
 </p>
 
 #### Metal Oxide Varistor (MOV)
@@ -88,7 +88,7 @@ Hirose DF63 series PCB through-hole 2-pin connectors rated for 630VDC and 8A are
 Falstad simulation has been set up to validate the functionality of the schematic as shown in <i>Figure 17</i>.
 </p>
 <center><img src='../Figures/Falstad_Precharge-Discharge.png'></center>
-<center><i>Figure 17: <a href='https://tinyurl.com/2cjbjfbx'>Precharge-Discharge PCB Simulation</a></i></center>
+<center><i>Figure 17: <a href='https://tinyurl.com/2cjbjfbx' target='_blank'>Precharge-Discharge PCB Simulation</a></i></center>
 
 <p style='text-align: justify'>
 <i>Figure 18</i> shows all possible scenarios of Precharge-Discharge PCB functionality.
@@ -182,7 +182,7 @@ The peak power is lower than the resistor maximum power rating of 100W, and the 
 <center><i>Figure 20: ESF Precharge Segment</i></center>
 
 <p style='text-align: justify'>
-Detailed calculations behind ESF are shown in <a href='#'>Appendix #</a>.
+Detailed calculations behind ESF are shown in <a href='#' target='_blank'>Appendix #</a>.
 </p>
 
 ## Prototyping
