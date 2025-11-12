@@ -11,308 +11,306 @@ The primary purpose of TB PDM PCB is to distribute power and signals within the 
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-abx8{background-color:#c0c0c0;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-6e8n{background-color:#c0c0c0;border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-abx8">No</th>
-    <th class="tg-6e8n">Port</th>
-    <th class="tg-6e8n">Type</th>
-    <th class="tg-6e8n">Voltage / V</th>
-    <th class="tg-6e8n">Current / A</th>
-    <th class="tg-6e8n">Description</th>
+    <th class="tg-1wig">No</th>
+    <th class="tg-1wig">Port</th>
+    <th class="tg-1wig">Type</th>
+    <th class="tg-1wig">Voltage / V</th>
+    <th class="tg-1wig">Current / A</th>
+    <th class="tg-1wig">Description</th>
   </tr></thead>
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-0pky">12V IN</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">10</td>
-    <td class="tg-0pky">12V power from LV PDM</td>
+    <td class="tg-0lax">12V IN</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">12V power from LV PDM</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-0pky">AIR+</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">12V signal to energise voltage controlled IR+ coil</td>
+    <td class="tg-0lax">AIR+</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">12V signal to energise voltage controlled IR+ coil</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-0pky">AIR-</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">12V signal to energise voltage controlled IR- coil</td>
+    <td class="tg-0lax">AIR-</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">12V signal to energise voltage controlled IR- coil</td>
   </tr>
   <tr>
     <td class="tg-0lax">4</td>
-    <td class="tg-0pky">AMBER+</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.02</td>
-    <td class="tg-0pky">12V signal controlled by Ready to Move PCB to energise Ready to Move light</td>
+    <td class="tg-0lax">AMBER+</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.02</td>
+    <td class="tg-0lax">12V signal controlled by Ready to Move PCB to energise Ready to Move light</td>
   </tr>
   <tr>
     <td class="tg-0lax">5</td>
-    <td class="tg-0pky">BMS AOP</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.175</td>
-    <td class="tg-0pky">Always on battery source. Required for J1772 support during TB charging</td>
+    <td class="tg-0lax">BMS AOP</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.175</td>
+    <td class="tg-0lax">Always on battery source. Required for J1772 support during TB charging</td>
   </tr>
   <tr>
     <td class="tg-0lax">6</td>
-    <td class="tg-0pky">BMS CHARGE</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.175</td>
-    <td class="tg-0pky">12V power that signals BMS is in a defined charging period</td>
+    <td class="tg-0lax">BMS CHARGE</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.175</td>
+    <td class="tg-0lax">12V power that signals BMS is in a defined charging period</td>
   </tr>
   <tr>
     <td class="tg-0lax">7</td>
-    <td class="tg-0pky">BMS CHARGE ENABLE</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.5</td>
-    <td class="tg-0pky">12V on/off signal used to control an intermittent charging source, such as regenerative braking</td>
+    <td class="tg-0lax">BMS CHARGE ENABLE</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.5</td>
+    <td class="tg-0lax">12V on/off signal used to control an intermittent charging source, such as regenerative braking</td>
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0pky">BMS CHASSIS</td>
-    <td class="tg-0pky">GND</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Ground for the supply power sources for the BMS</td>
+    <td class="tg-0lax">BMS CHASSIS</td>
+    <td class="tg-0lax">GND</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Ground for the supply power sources for the BMS</td>
   </tr>
   <tr>
     <td class="tg-0lax">9</td>
-    <td class="tg-0pky">BMS OK (MPO1)</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.175</td>
-    <td class="tg-0pky">Open drain output which pulls down to ground when on. When BMS has no error, the output is pulled to ground</td>
+    <td class="tg-0lax">BMS OK (MPO1)</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.175</td>
+    <td class="tg-0lax">Open drain output which pulls down to ground when on. When BMS has no error, the output is pulled to ground</td>
   </tr>
   <tr>
     <td class="tg-0lax">10</td>
-    <td class="tg-0pky">BMS Ready</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.175</td>
-    <td class="tg-0pky">Causes BMS to wake up and resume operation from sleep</td>
+    <td class="tg-0lax">BMS Ready</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.175</td>
+    <td class="tg-0lax">Causes BMS to wake up and resume operation from sleep</td>
   </tr>
   <tr>
     <td class="tg-0lax">11</td>
-    <td class="tg-0pky">CAN GND</td>
-    <td class="tg-0pky">GND</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Ground for CAN bus lines</td>
+    <td class="tg-0lax">CAN GND</td>
+    <td class="tg-0lax">GND</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Ground for CAN bus lines</td>
   </tr>
   <tr>
     <td class="tg-0lax">12</td>
-    <td class="tg-0pky">CAN1 HI</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">3.5</td>
-    <td class="tg-0pky">0.029</td>
-    <td class="tg-0pky">CAN bus line 1 high signal</td>
+    <td class="tg-0lax">CAN1 HI</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">3.5</td>
+    <td class="tg-0lax">0.029</td>
+    <td class="tg-0lax">CAN bus line 1 high signal</td>
   </tr>
   <tr>
     <td class="tg-0lax">13</td>
-    <td class="tg-0pky">CAN1 LO</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">1.5</td>
-    <td class="tg-0pky">0.013</td>
-    <td class="tg-0pky">CAN bus line 1 low signal</td>
+    <td class="tg-0lax">CAN1 LO</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">1.5</td>
+    <td class="tg-0lax">0.013</td>
+    <td class="tg-0lax">CAN bus line 1 low signal</td>
   </tr>
   <tr>
     <td class="tg-0lax">14</td>
-    <td class="tg-0pky">CAN2 HI</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">3.5</td>
-    <td class="tg-0pky">0.029</td>
-    <td class="tg-0pky">CAN bus line 2 high signal</td>
+    <td class="tg-0lax">CAN2 HI</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">3.5</td>
+    <td class="tg-0lax">0.029</td>
+    <td class="tg-0lax">CAN bus line 2 high signal</td>
   </tr>
   <tr>
     <td class="tg-0lax">15</td>
-    <td class="tg-0pky">CAN2 LO</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">1.5</td>
-    <td class="tg-0pky">0.013</td>
-    <td class="tg-0pky">CAN bus line 2 low signal</td>
+    <td class="tg-0lax">CAN2 LO</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">1.5</td>
+    <td class="tg-0lax">0.013</td>
+    <td class="tg-0lax">CAN bus line 2 low signal</td>
   </tr>
   <tr>
     <td class="tg-0lax">16</td>
-    <td class="tg-0pky">Charge IN</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">2</td>
-    <td class="tg-0pky">Charger interlock (input)</td>
+    <td class="tg-0lax">Charge IN</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">Charger interlock (input)</td>
   </tr>
   <tr>
     <td class="tg-0lax">17</td>
-    <td class="tg-0pky">Charge OUT</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">2</td>
-    <td class="tg-0pky">Charger interlock (output)</td>
+    <td class="tg-0lax">Charge OUT</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">Charger interlock (output)</td>
   </tr>
   <tr>
     <td class="tg-0lax">18</td>
-    <td class="tg-0pky">Charge SD</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">2</td>
-    <td class="tg-0pky">Charger Shutdown line signal</td>
+    <td class="tg-0lax">Charge SD</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">Charger Shutdown line signal</td>
   </tr>
   <tr>
     <td class="tg-0lax">19</td>
-    <td class="tg-0pky">Charger GND</td>
-    <td class="tg-0pky">GND</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Ground for TB charger</td>
+    <td class="tg-0lax">Charger GND</td>
+    <td class="tg-0lax">GND</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Ground for TB charger</td>
   </tr>
   <tr>
     <td class="tg-0lax">20</td>
-    <td class="tg-0pky">Charger PWR</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">12V power from TB charger</td>
+    <td class="tg-0lax">Charger PWR</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax">12V power from TB charger</td>
   </tr>
   <tr>
     <td class="tg-0lax">21</td>
-    <td class="tg-0pky">Charger Splice GND</td>
-    <td class="tg-0pky">GND</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">TB charger ground to pull down Proximity MPI2</td>
+    <td class="tg-0lax">Charger Splice GND</td>
+    <td class="tg-0lax">GND</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">TB charger ground to pull down Proximity MPI2</td>
   </tr>
   <tr>
     <td class="tg-0lax">22</td>
-    <td class="tg-0pky">CHASSIS GND</td>
-    <td class="tg-0pky">GND</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Common GLV ground</td>
+    <td class="tg-0lax">CHASSIS GND</td>
+    <td class="tg-0lax">GND</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Common GLV ground</td>
   </tr>
   <tr>
     <td class="tg-0lax">23</td>
-    <td class="tg-0pky">CT 5V</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">0.015</td>
-    <td class="tg-0pky">5V power for BSPD</td>
+    <td class="tg-0lax">CT 5V</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax">0.015</td>
+    <td class="tg-0lax">5V power for BSPD</td>
   </tr>
   <tr>
     <td class="tg-0lax">24</td>
-    <td class="tg-0pky">CT GND</td>
-    <td class="tg-0pky">GND</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Ground for BSPD</td>
+    <td class="tg-0lax">CT GND</td>
+    <td class="tg-0lax">GND</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Ground for BSPD</td>
   </tr>
   <tr>
     <td class="tg-0lax">25</td>
-    <td class="tg-0pky">CT Test IN</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Test signal to simulate TS current</td>
+    <td class="tg-0lax">CT Test IN</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Test signal to simulate TS current</td>
   </tr>
   <tr>
     <td class="tg-0lax">26</td>
-    <td class="tg-0pky">CT Test OUT</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Test signal to simulate TS current</td>
+    <td class="tg-0lax">CT Test OUT</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Test signal to simulate TS current</td>
   </tr>
   <tr>
     <td class="tg-0lax">27</td>
-    <td class="tg-0pky">CT Uout</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">TS current hall effect sensor signal</td>
+    <td class="tg-0lax">CT Uout</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">TS current hall effect sensor signal</td>
   </tr>
   <tr>
     <td class="tg-0lax">28</td>
-    <td class="tg-0pky">CT Uref</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">2.5</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">TS current hall effect sensor internal reference</td>
+    <td class="tg-0lax">CT Uref</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">2.5</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">TS current hall effect sensor internal reference</td>
   </tr>
   <tr>
     <td class="tg-0lax">29</td>
-    <td class="tg-0pky">FAN GND</td>
-    <td class="tg-0pky">GND</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">NA</td>
-    <td class="tg-0pky">Ground for TB cooling fans</td>
+    <td class="tg-0lax">FAN GND</td>
+    <td class="tg-0lax">GND</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">NA</td>
+    <td class="tg-0lax">Ground for TB cooling fans</td>
   </tr>
   <tr>
     <td class="tg-0lax">30</td>
-    <td class="tg-0pky">FAN PWM Control</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.175</td>
-    <td class="tg-0pky">PWM output to control TB cooling fans</td>
+    <td class="tg-0lax">FAN PWM Control</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.175</td>
+    <td class="tg-0lax">PWM output to control TB cooling fans</td>
   </tr>
   <tr>
     <td class="tg-0lax">31</td>
-    <td class="tg-0pky">FAN PWM Signal</td>
-    <td class="tg-0pky">SIG</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">0.175</td>
-    <td class="tg-0pky">Open drain output from BMS to control TB cooling fans via PWM</td>
+    <td class="tg-0lax">FAN PWM Signal</td>
+    <td class="tg-0lax">SIG</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">0.175</td>
+    <td class="tg-0lax">Open drain output from BMS to control TB cooling fans via PWM</td>
   </tr>
   <tr>
     <td class="tg-0lax">32</td>
-    <td class="tg-0pky">FAN PWR</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">12V power to TB cooling fans</td>
+    <td class="tg-0lax">FAN PWR</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">12V power to TB cooling fans</td>
   </tr>
   <tr>
     <td class="tg-0lax">33</td>
-    <td class="tg-0pky">FAN PWR1</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">Parallel branch from FAN PWR for one TB cooling fan</td>
+    <td class="tg-0lax">FAN PWR1</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">Parallel branch from FAN PWR for one TB cooling fan</td>
   </tr>
   <tr>
     <td class="tg-0lax">34</td>
-    <td class="tg-0pky">FAN PWR2</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">Parallel branch from FAN PWR for one TB cooling fan</td>
+    <td class="tg-0lax">FAN PWR2</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">Parallel branch from FAN PWR for one TB cooling fan</td>
   </tr>
   <tr>
     <td class="tg-0lax">35</td>
-    <td class="tg-0pky">FAN PWR3</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">Parallel branch from FAN PWR for one TB cooling fan</td>
+    <td class="tg-0lax">FAN PWR3</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">Parallel branch from FAN PWR for one TB cooling fan</td>
   </tr>
   <tr>
     <td class="tg-0lax">36</td>
-    <td class="tg-0pky">FAN PWR4</td>
-    <td class="tg-0pky">PWR</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">Parallel branch from FAN PWR for one TB cooling fan</td>
+    <td class="tg-0lax">FAN PWR4</td>
+    <td class="tg-0lax">PWR</td>
+    <td class="tg-0lax">12</td>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">Parallel branch from FAN PWR for one TB cooling fan</td>
   </tr>
   <tr>
     <td class="tg-0lax">37</td>
@@ -500,7 +498,7 @@ The primary purpose of TB PDM PCB is to distribute power and signals within the 
   </tr>
 </tbody></table>
 </center>
-<center><i>Figure 23: System Requirements</i></center>
+<center><i>Figure 23: TB PDM PCB System Requirements</i></center>
 
 ### Trace Width
 <p style='text-align: justify'>
