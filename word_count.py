@@ -12,40 +12,76 @@ OUTPUT_FILE = "word_count_report.xlsx"
 
 def clean_markdown_syntax(text):
     """
-    Strip Markdown formatting while keeping visible text (like Word would see).
+    Remove Markdown-specific syntax while keeping visible text.
     """
-    text = re.sub(r'^\|.*\|\s*$', '', text, flags=re.MULTILINE)  # tables
-    text = re.sub(r'!\[.*?\]\(.*?\)', '', text)  # images
-    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)  # links: keep label only
-    text = re.sub(r'[`*_#>\-~]+', '', text)  # markdown formatting symbols
+    # Remove Markdown table lines (| ... |)
+    text = re.sub(r'^\|.*\|\s*$', '', text, flags=re.MULTILINE)
+
+    # Remove Markdown images
+    text = re.sub(r'!\[.*?\]\(.*?\)', '', text)
+
+    # Remove links but keep their label text
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+
+    # Remove formatting (*, #, etc.)
+    text = re.sub(r'[`*_#>\-~]+', '', text)
+
     return text
 
 
-def extract_visible_text(content):
+def split_markdown_html(content):
     """
-    Extract visible text from Markdown, removing hidden markup and HTML tags.
+    Separate Markdown text and embedded HTML text from a Markdown file.
+    Returns (markdown_text, html_text).
     """
-    # Clean markdown markup
-    content = clean_markdown_syntax(content)
+    # Detect HTML tags
+    html_parts = re.findall(r'<[^>]+>.*?</[^>]+>', content, flags=re.DOTALL)
+    html_text = "\n".join(html_parts)
 
-    # Parse embedded HTML safely
-    soup = BeautifulSoup(content, "html.parser")
+    # Remove HTML sections to get pure Markdown part
+    markdown_only = re.sub(r'<[^>]+>.*?</[^>]+>', '', content, flags=re.DOTALL)
 
-    # Remove non-visible or code tags
+    return markdown_only, html_text
+
+
+def extract_visible_text_markdown(text):
+    """
+    Clean and return visible text from Markdown (excluding HTML and tables).
+    """
+    text = clean_markdown_syntax(text)
+    soup = BeautifulSoup(text, "html.parser")
+
+    # Remove table content
+    for table in soup.find_all("table"):
+        table.decompose()
+
+    # Remove invisible tags
     for tag in soup(["script", "style", "code", "noscript", "meta", "link"]):
         tag.decompose()
 
-    # Get visible text
     text = soup.get_text(separator=" ", strip=True)
-
-    # Normalize whitespace
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 
+def extract_visible_text_html(text):
+    """
+    Extract visible text from embedded HTML within Markdown.
+    """
+    soup = BeautifulSoup(text, "html.parser")
+
+    # Remove tables, scripts, and non-visible elements
+    for tag in soup(["table", "script", "style", "noscript", "meta", "link"]):
+        tag.decompose()
+
+    html_visible = soup.get_text(separator=" ", strip=True)
+    html_visible = re.sub(r'\s+', ' ', html_visible).strip()
+    return html_visible
+
+
 def word_count_like_word(text):
     """
-    Count words using Microsoft Word-style rules.
+    Count words using Microsoft Word's logic.
     """
     pattern = re.compile(
         r"""
@@ -61,11 +97,11 @@ def word_count_like_word(text):
 
 def count_words_in_markdown(folder_path):
     """
-    Count words in all Markdown (.md) files inside the folder (recursively),
-    excluding 'appendix.md', using Microsoft Word logic.
+    Recursively count words in Markdown files (excluding appendix.md and tables),
+    and provide breakdowns for Markdown-only and embedded HTML content.
     """
     total_words = 0
-    file_word_counts = {}
+    file_word_data = {}
 
     for root, _, files in os.walk(folder_path):
         for filename in files:
@@ -78,38 +114,48 @@ def count_words_in_markdown(folder_path):
                     print(f"⚠️ Could not read {path}: {e}")
                     continue
 
-                text = extract_visible_text(content)
-                count = word_count_like_word(text)
+                md_part, html_part = split_markdown_html(content)
+
+                markdown_text = extract_visible_text_markdown(md_part)
+                html_text = extract_visible_text_html(html_part)
+
+                md_count = word_count_like_word(markdown_text)
+                html_count = word_count_like_word(html_text)
+                total_count = md_count + html_count
 
                 relative_path = os.path.relpath(path, folder_path)
-                file_word_counts[relative_path] = count
-                total_words += count
+                file_word_data[relative_path] = {
+                    "markdown_words": md_count,
+                    "html_words": html_count,
+                    "total_words": total_count,
+                }
+                total_words += total_count
 
-    return total_words, file_word_counts
+    return total_words, file_word_data
 
 
-def save_to_excel(file_word_counts, total_words, output_file):
+def save_to_excel(file_word_data, total_words, output_file):
     """
-    Save the word counts to an Excel file.
+    Save word counts (with Markdown/HTML breakdown) to an Excel file.
     """
     wb = Workbook()
     ws = wb.active
     ws.title = "Word Count Report"
 
-    # Headers
-    ws.append(["Folder", "File Name", "Word Count"])
+    # Header
+    ws.append(["Folder", "File Name", "Markdown Words", "HTML Words", "Total Words"])
     for cell in ws[1]:
         cell.font = Font(bold=True)
 
     # Data
-    for path, count in sorted(file_word_counts.items()):
+    for path, data in sorted(file_word_data.items()):
         folder, file_name = os.path.split(path)
-        ws.append([folder, file_name, count])
+        ws.append([folder, file_name, data["markdown_words"], data["html_words"], data["total_words"]])
 
-    # Total
-    ws.append(["", "TOTAL (excluding appendix.md)", total_words])
+    # Total row
+    ws.append(["", "TOTAL (excluding appendix.md, tables)", "", "", total_words])
     ws.cell(ws.max_row, 2).font = Font(bold=True)
-    ws.cell(ws.max_row, 3).font = Font(bold=True)
+    ws.cell(ws.max_row, 5).font = Font(bold=True)
 
     # Auto column width
     for col in ws.columns:
@@ -124,11 +170,11 @@ if __name__ == "__main__":
     if not os.path.exists(TARGET_FOLDER):
         print(f"❌ Folder not found: {TARGET_FOLDER}")
     else:
-        total, counts = count_words_in_markdown(TARGET_FOLDER)
+        total, data = count_words_in_markdown(TARGET_FOLDER)
 
         print("Word count by file:")
-        for file, wc in sorted(counts.items()):
-            print(f"  {file}: {wc} words")
+        for file, d in sorted(data.items()):
+            print(f"  {file}: Markdown={d['markdown_words']} | HTML={d['html_words']} | Total={d['total_words']}")
 
-        print(f"\nTotal (excluding appendix.md): {total}")
-        save_to_excel(counts, total, OUTPUT_FILE)
+        print(f"\nTotal (excluding appendix.md and table contents): {total}")
+        save_to_excel(data, total, OUTPUT_FILE)
