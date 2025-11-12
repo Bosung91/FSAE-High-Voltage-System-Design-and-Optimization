@@ -524,7 +524,7 @@ Termination resistors are used for CAN2 bus lines, pull-down resistor is used fo
 
 ### Connectors
 <p style='text-align: justify'>
-Deustch Autosport connectors are used due to their superior pin density, vibration resistance and waterproofness, while Hirose DF63 series connectors are used due to their compactness and vibration resistance. Total of 18 connectors are used on TB PDM PCB. Refer to <a href='#'>Appendix #</a> for connector specifications.
+Deustch Autosport connectors are used due to their superior pin density, vibration resistance and waterproofness (motorsport grade), while Hirose DF63 series connectors are used due to their compactness and vibration resistance (meant for motors and motor drives). Total of 18 connectors are used on TB PDM PCB. Refer to <a href='#'>Appendix #</a> for connector specifications.
 </p>
 
 <p style='text-align: justify'>
