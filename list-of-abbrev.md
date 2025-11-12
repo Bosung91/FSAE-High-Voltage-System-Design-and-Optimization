@@ -1,11 +1,11 @@
 # List of Abbreviations
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg"><thead>
@@ -43,6 +43,10 @@
     <td class="tg-0lax">Low Voltage</td>
   </tr>
   <tr>
+    <td class="tg-0lax">MSD</td>
+    <td class="tg-0lax">Manual Service Disconnect</td>
+  </tr>
+  <tr>
     <td class="tg-0lax">PDM</td>
     <td class="tg-0lax">Power Distribution Module</td>
   </tr>
@@ -53,6 +57,10 @@
   <tr>
     <td class="tg-0lax">TB</td>
     <td class="tg-0lax">Tractive Battery</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">TSMP</td>
+    <td class="tg-0lax">Tractive System Measuring Point</td>
   </tr>
   <tr>
     <td class="tg-0lax">TSMS</td>

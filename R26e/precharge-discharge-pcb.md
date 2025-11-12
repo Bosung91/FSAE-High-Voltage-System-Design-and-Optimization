@@ -193,7 +193,7 @@ Based on the schematic, specced components and simulation results, 26 Precharge-
 <center><i>Figure 21: 26 Precharge-Discharge PCB</i></center>
 
 <p style='text-align: justify'>
-Humiseal 1B73 conformal coat is applied to ensure electrical isolation from surrounding components and to keep galvanic isolation spacing to a minimum of 4 mm as stated in FSAE rules EV.6.5.7.
+Humiseal 1B73 conformal coat is applied to ensure electrical isolation from surrounding components and to keep galvanic isolation spacing to a minimum of 4 mm as stated in FSAE rules EV.6.5.7. It is mounted vertically to prevent water accumulation on it in case there is water ingress in TB enclosure.
 </p>
 <center><img src='../Figures/EV.6.5.7.png'></center>
 <center><i>Figure 22: EV.6.5.7</i></center>
