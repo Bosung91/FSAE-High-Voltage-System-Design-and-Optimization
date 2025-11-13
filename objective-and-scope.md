@@ -11,7 +11,11 @@ Based on R25E's performance in 2025 FSAE Michigan, the team has formed the follo
 To achieve the team goal, High Voltage (HV) department's goal is as following:  
 <h3><center><i><b>System integration and optimization</b> of CM200DX motor controller</i></center></h3>  
 
-The testbed for <b>CM200DX</b> called, <i>R25Evo</i>, as modifications have been made to R25E to integrate <b>CM200DX</b> into R25E powertrain architecture.  
+Reliability can only be achieved when <b>CM200DX</b> is seamlessly integrated into the HV system. Once <b>CM200DX</b> is properly integrated, the team can then aim to decrease average lap time in endurance.
+</p>
+
+<p style='text-align: justify'>
+The testbed for <b>CM200DX</b> is called, <i>R25Evo</i>, as modifications have been made to R25E to integrate <b>CM200DX</b> into R25E powertrain architecture.  
 
 Brief explanation of changing motor controller from <b>BAMOCAR D3 400-400</b> to <b>CM200DX</b> will be explained in the next section, <i>Context of Problem</i>.
 </p>

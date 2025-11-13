@@ -498,7 +498,7 @@ The primary purpose of TB PDM PCB is to distribute power and signals within the 
   </tr>
 </tbody></table>
 </center>
-<center><i>Figure 23: TB PDM PCB System Requirements</i></center>
+<center><i>Figure 24: TB PDM PCB System Requirements</i></center>
 
 ### Trace Width
 <p style='text-align: justify'>
@@ -529,17 +529,17 @@ Deustch Autosport connectors are used due to their superior pin density, vibrati
 TB PDM PCB schematic is shown in <i>Figure 24</i>.
 </p>
 <center><img src='../Figures/Tractive Battery PDM PCB Schematic.png'></center>
-<center><i>Figure 24: 26 TB PDM PCB Schematic</i></center>
+<center><i>Figure 25: 26 TB PDM PCB Schematic</i></center>
 
 ## Prototyping
 Deutsch Autosports connectors are panel mounted to TB enclosure for external connections, while Hirose DF63 series connectors are for internal connections within TB enclosure.
 <center><img src='../Figures/Tractive Battery PDM PCB Front.png'></center>
-<center><i>Figure 25: 26 TB PDM PCB Front View</i></center>
+<center><i>Figure 26: 26 TB PDM PCB Front View</i></center>
 
 ---
 
 <center><img src='../Figures/Tractive Battery PDM PCB Rear.png'></center>
-<center><i>Figure 26: 26 TB PDM PCB Rear View</i></center>
+<center><i>Figure 27: 26 TB PDM PCB Rear View</i></center>
 
 <p style='text-align: justify'>
 The board is mounted vertically to prevent water accumulation on it in case there is water ingress in TB enclosure. Humiseal 1B73 conformal coat is applied for electrical insulation and moisture protection.

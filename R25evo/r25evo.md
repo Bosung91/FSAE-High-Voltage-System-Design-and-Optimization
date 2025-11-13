@@ -9,13 +9,20 @@ This section will discuss about the issues faced in the HV system during R25Evo 
 R25Evo lost drive and could not start after power cycling. 
 </p>
 
+### Purpose of Precharge-Discharge PCB
+<p style='text-align: justify'>
+The purpose of Precharge-Discharge PCB is explained in FSAE rules as shown below.
+</p>
+<center><img src='../Figures/Rules_Precharge-Discharge PCB.png'></center>
+<center><i>Figure 7: FSAE Rules EV.5.6, EV7.2</i></center>
+
 ### Diagnosis
 Precharge resistors on 25 Precharge-Discharge PCB completely melted down as shown in <i>Figure 7</i>, and it could be due to two possible reasons: 
 - Under-specced resistor
 - Insufficient heat dissipation by heat sink
 
 <center><img src='../Figures/Burnt Precharge Resistors Top View.jpg'></center>
-<center><i>Figure 7: Burnt Precharge Resistors</i></center>
+<center><i>Figure 8: Burnt Precharge Resistors</i></center>
 
 ### Under-specced resistor
 <p style='text-align: justify'>
@@ -67,7 +74,7 @@ To determine whether overvoltage, overcurrent, or exceeding power limit or maxim
 </table>
 </center>
 
-<center><i>Figure 8: Parameter Comparison</i></center>
+<center><i>Figure 9: Parameter Comparison</i></center>
 <p style='text-align: justify'>
 Based on the comparison of parameters, resistor meltdown is <b>unlikely</b> due to underspeccing for R25Evo precharge circuit.  
 
@@ -80,7 +87,7 @@ After concluding that the resistors were specced properly, mechanical design of 
 </p>
 
 <center><img src='../Figures/R25E Precharge-Discharge PCB Layer.png'></center>
-<center><i>Figure 9: 25 Precharge-Discharge PCB Layers</i></center>
+<center><i>Figure 10: 25 Precharge-Discharge PCB Layers</i></center>
 <p style='text-align: justify'>
 There are a total of three <b>thermal insulators</b> making up the PCB layers: solder resist, PP-006 and FR-4. Their thermal conductivities are shown in <i>Figure 10</i>.
 </p>
@@ -123,14 +130,14 @@ There are a total of three <b>thermal insulators</b> making up the PCB layers: s
 </tbody>
 </table>
 </center>
-<center><i>Figure 10: Thermal Conductivities of PCB Layers</i></center>
+<center><i>Figure 11: Thermal Conductivities of PCB Layers</i></center>
 
 <p style='text-align: justify'>
 As one can notice from <i>Figure 10</i>, placing heat sink on surface opposite to precharge resistors, as shown in <i>Figure 11</i> is <b>as ineffective as not placing the heat sink</b>, since the layers insulate heat generated from precharge resistors, preventing proper heat dissipation by the heat sink. Thus, the earlier comparison of datasheet and actual values is <b>invalid</b> since the resistors were not properly heat sinked.
 </p>
 
 <center><img src='../Figures/Burnt Precharge Resistors Side View.jpg'></center>
-<center><i>Figure 11: Heat Sink Position</i></center>
+<center><i>Figure 12: Heat Sink Position</i></center>
 
 <p style='text-align: justify'>
 It can therefore be concluded with confidence that the precharge resistors melted down due to <b><u>insufficient heat dissipation during operation.</u></b>
@@ -144,14 +151,14 @@ R25Evo lost power intermittently mid drive.
 
 ### Diagnosis
 <center><img src='../Figures/Precharge Signal_Abnormal.png'></center>
-<center><i>Figure 12: Abnormal Precharge Signal</i></center>
+<center><i>Figure 13: Abnormal Precharge Signal</i></center>
 
 <p style='text-align: justify'>
 Precharge signal (blue graph) oscillated as shown in <i>Figure 12</i> due to <b><u>loose connection from 25 TB PDM to IR+.</u></b>
 </p>
 
 <center><img src='../Figures/Precharge Signal_Normal.png'></center>
-<center><i>Figure 13: Normal Precharge Signal</i></center>
+<center><i>Figure 14: Normal Precharge Signal</i></center>
 
 <p style='text-align: justify'>
 The precharge signal state should be set as HIGH by ECU only when car is starting, then be set as LOW for the rest of the run as shown in <i>Figure 13</i>. Detailed precharge sequence is explained in <i>Figure 14</i> below.
@@ -209,7 +216,7 @@ The precharge signal state should be set as HIGH by ECU only when car is startin
   </tr>
 </tbody></table>
 </center>
-<center><i>Figure 14: Precharge Sequence</i></center>
+<center><i>Figure 15: Precharge Sequence</i></center>
 
 <p style='text-align: justify'>
 The following sections will explain the design changes implemented to <b>rectify</b> the above-mentioned issues for R26E HV system.

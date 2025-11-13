@@ -1,21 +1,13 @@
 # Precharge-Discharge PCB
 
 ## Design
-### Rules
-<p style='text-align: justify'>
-FSAE rule sections EV.5.6 and EV.7.2.2 highlighted in red in <i>Figure 15</i> govern the design of Precharge-Discharge PCB
-</p>
-
-<center><img src='../Figures/Rules_Precharge-Discharge PCB.png'></center>
-<center><i>Figure 15: FSAE Rules EV.5.6 & EV.7.2.2</i></center>
-
 ### Schematic
 <p style='text-align: justify'>
-Based on the rules and lessons learned from R25Evo, the following schematic has been designed as shown in <i>Figure 16</i>.
+Based on the rules (Figure 7) and lessons learned from R25Evo, the following schematic has been designed as shown in <i>Figure 16</i>.
 </p>
 
 <center><img src='../Figures/26 Precharge-Discharge PCB Schematic.png'></center>
-<center><i>Figure 16: 26 Precharge-Discharge PCB Schematic</i></center>
+<center><i>Figure 17: 26 Precharge-Discharge PCB Schematic</i></center>
 
 ### Components
 ### LV
@@ -88,10 +80,10 @@ Hirose DF63 series PCB through-hole 2-pin connectors rated for 630VDC and 8A are
 Falstad simulation has been set up to validate the functionality of the schematic as shown in <i>Figure 17</i>.
 </p>
 <center><img src='../Figures/Falstad_Precharge-Discharge.png'></center>
-<center><i>Figure 17: <a href='https://tinyurl.com/2cjbjfbx' target='_blank'>Precharge-Discharge PCB Simulation</a></i></center>
+<center><i>Figure 18: <a href='https://tinyurl.com/2cjbjfbx' target='_blank'>Precharge-Discharge PCB Simulation</a></i></center>
 
 <p style='text-align: justify'>
-<i>Figure 18</i> shows all possible scenarios of Precharge-Discharge PCB functionality.
+<i>Figure 19</i> shows all possible scenarios of Precharge-Discharge PCB functionality.
 </p>
 <center>
 <style type="text/css">
@@ -162,14 +154,14 @@ Falstad simulation has been set up to validate the functionality of the schemati
   </tr>
 </tbody></table>
 </center>
-<center><i>Figure 18: Precharge-Discharge PCB Truth Table</i></center>
+<center><i>Figure 19: Precharge-Discharge PCB Truth Table</i></center>
 
 ## Transient Analysis
 <p style='text-align: justify'>
 R25Evo testing exposed insufficient cooling by heat sinks, which led to failure of Precharge resistors. Transient analysis has been conducted on Precharge resistor to determine whether peak power during transient state will exceed its maximum power rating. <i>Figure 19</i> shows power against time plot of Precharge resistor.
 </p>
 <center><img src='../Figures/Altium SPICE_Precharge Resistor P-t Plot.png'></center>
-<center><i>Figure 19: P vs t Plot of Precharge Resistor</i></center>
+<center><i>Figure 20: P vs t Plot of Precharge Resistor</i></center>
 
 The findings are as under:
 - Peak Power: 86.0W
@@ -179,7 +171,7 @@ The findings are as under:
 The peak power is lower than the resistor maximum power rating of 100W, and the average power dissipated is in the same order of magnitude as Electric Systems Form (ESF) value of 18.2W; ESF is a document that the team needs to submit for technical inspection prior to competition. <i>Figure 20</i> shows the Precharge segment of ESF. Detailed analysis setup and data extraction are in <a href='#' target='_blank'>Appendix #</a>.
 </p>
 <center><img src='../Figures/ESF Precharge Segment.png'></center>
-<center><i>Figure 20: ESF Precharge Segment</i></center>
+<center><i>Figure 21: ESF Precharge Segment</i></center>
 
 <p style='text-align: justify'>
 Detailed calculations behind ESF are shown in <a href='#' target='_blank'>Appendix #</a>.
@@ -190,13 +182,13 @@ Detailed calculations behind ESF are shown in <a href='#' target='_blank'>Append
 Based on the schematic, specced components and simulation results, 26 Precharge-Discharge PCB has been prototyped as shown in <i>Figure 21</i>.
 </p>
 <center><img src='../Figures/26 Precharge-Discharge PCB Front View.png'></center>
-<center><i>Figure 21: 26 Precharge-Discharge PCB</i></center>
+<center><i>Figure 22: 26 Precharge-Discharge PCB</i></center>
 
 <p style='text-align: justify'>
 Humiseal 1B73 conformal coat is applied to ensure electrical isolation from surrounding components and to keep galvanic isolation spacing to a minimum of 4 mm as stated in FSAE rules EV.6.5.7. It is mounted vertically to prevent water accumulation on it in case there is water ingress in TB enclosure.
 </p>
 <center><img src='../Figures/EV.6.5.7.png'></center>
-<center><i>Figure 22: EV.6.5.7</i></center>
+<center><i>Figure 23: EV.6.5.7</i></center>
 
 ---
 
