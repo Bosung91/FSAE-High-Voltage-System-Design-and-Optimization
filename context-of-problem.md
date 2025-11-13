@@ -45,7 +45,7 @@ After analysing the data, the team has concluded that there is a potential to re
 
 ## Transition to CM200DX
 <p style='text-align: justify'>
-Due to the limited current ramp rate of <b>BAMOCAR</b> and potential to accelerate faster, the team has decided to use <b>CM200DX</b> for R26E due to its superior performance. For more detailed justification on switching to <b>CM200DX</b>, please refer to <a href='#'>FTS 435 Cascadia System Integration (HV & LV)</a>.
+Due to the limited current ramp rate of <b>BAMOCAR</b> and potential to accelerate faster, the team has decided to use <b>CM200DX</b> for R26E due to its superior performance. For more detailed justification on switching to <b>CM200DX</b>, please refer to <a href='https://niikhilesh.github.io/Cascadia-System-Integration-HV-and-LV/' target='_blank'>FTS 435 Cascadia System Integration (HV & LV)</a>.
 </p>  
 
 ---
