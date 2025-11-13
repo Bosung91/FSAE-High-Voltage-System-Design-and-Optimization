@@ -143,7 +143,7 @@ HV Distribution PCB provides HV to the following systems:
 <center><i>Figure 29: HV Distribution System Requirements</i></center>
 
 <p style='text-align: justify'>
-Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses are added only for systems without explicit overcurrent protection. The systems that require overcurrent protection are: IMD, Energy Meter, Voltage Indicator and Ready to Move PCB.
+Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses are added only for systems without external overcurrent protection. The systems that require overcurrent protection are: IMD, Energy Meter, Voltage Indicator and Ready to Move PCB.
 </p>
 
 ### Fuse Selection
