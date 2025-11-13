@@ -268,17 +268,17 @@ AWG 22 wires are used for the systems that require overcurrent protection, and t
   </tr>
 </tbody></table>
 </center>
-<center><i>Figure 30: Amapcity Chart of Milspec Wires (PROWIREUSA, 2025)</i></center>
+<center><i>Figure 30: Amapcity Chart of Milspec Wires (<a href='https://www.prowireusa.com/tefzel-amperage-chart' target='_blank'>PROWIREUSA, 2025</a>)</i></center>
 
 <p style='text-align: justify'>
 The team anticipates only a 10ºC rise, so the fuse will be rated for 3A. Littelfuse axial lead and cartridge fuse average time current curves are shown below, which will be referenced to select the fuse.
 </p>
 
 <center><img src='../Figures/Fuse_T vs I plot.png'></center>
-<center><i>Figure 31: Average TIme Current Curves (Littelfuse, 2018)</i></center>
+<center><i>Figure 31: Average TIme Current Curves (<a href='' target='_blank'>Littelfuse, 2018</a>)</i></center>
 
 <p style='text-align: justify'>
-1A fuse is selected as it has the lowest nominal cold resistance of 1580mOhms (Littelfuse, 2018) and takes approximately 0.1s to blow at 3A, which is suitable for the
+1A fuse is selected as it has the lowest nominal cold resistance of 1580mOhms (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>) and takes approximately 0.1s to blow at 3A.
 </p>
 
 #### Material
