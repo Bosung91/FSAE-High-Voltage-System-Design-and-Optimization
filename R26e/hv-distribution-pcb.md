@@ -298,4 +298,4 @@ The PCB is vertically mounted to prevent water accumulation if there is water in
 
 [Next Section: Shortcomings](../shortcomings.md)  
 
-[List of Abbreviations](list-of-abbrev.md)
+[List of Abbreviations](../list-of-abbrev.md)

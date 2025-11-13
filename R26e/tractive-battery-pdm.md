@@ -551,4 +551,4 @@ The board is mounted vertically to prevent water accumulation on it in case ther
 
 [Next Section: R26E: HV Distribution PCB](hv-distribution-pcb.md)  
 
-[List of Abbreviations](list-of-abbrev.md)
+[List of Abbreviations](../list-of-abbrev.md)

@@ -196,4 +196,4 @@ Humiseal 1B73 conformal coat is applied to ensure electrical isolation from surr
 
 [Next Section: R26E: Tractive Battery PDM PCB](tractive-battery-pdm.md)  
 
-[List of Abbreviations](list-of-abbrev.md)
+[List of Abbreviations](../list-of-abbrev.md)
