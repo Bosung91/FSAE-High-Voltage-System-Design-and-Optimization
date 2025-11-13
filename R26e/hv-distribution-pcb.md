@@ -148,7 +148,7 @@ Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses a
 
 ### Fuse Selection
 #### Current
-_Show AWG22 ampacity & fuse average time current curves_
+_Show AWG22 ampacity (3A ~ 5A) & fuse average time current curves_
 
 #### Material
 _Compare different fuse materials, such as glass, ceramic, etc_

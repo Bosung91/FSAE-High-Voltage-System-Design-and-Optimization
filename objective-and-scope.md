@@ -51,7 +51,7 @@ R25Evo testbench was designed to validate compatibility and functionality of exi
 <p style='text-align: justify'>
 The testbench was set up as shown in <i>Figure 3</i>, which represents the entire powertrain architecture in R25E.</p>  
 
-Using the testbench, following HV functionalities of R25Evo were be tested:
+Using the testbench, following HV functionalities of R25Evo were tested:
 - Precharge Sequence
 - Closing TS Circuit
 - Discharge Sequence
@@ -66,7 +66,7 @@ HV PCBs responsible for the above functionalities were installed in Tractive Bat
 ---
 
 <p style='text-align: justify'>
-HV PCBs are: Precharge-Discharge PCB (blue), Tractive Battery PDM PCB (orange) and HV Distribution PCB (green), as shown in <i>Figure 4</i>.
+HV PCBs are: Precharge-Discharge PCB (blue), Tractive Battery PDM PCB (orange) and HV Distribution PCB (green).
 </p>
 
 ### R25Evo test run
