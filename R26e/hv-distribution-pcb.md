@@ -149,6 +149,137 @@ Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses a
 ### Fuse Selection
 #### Current
 _Show AWG22 ampacity (3A ~ 5A) & fuse average time current curves_
+<p style='text-align: justify'>
+AWG 22 wires are used for the systems that require overcurrent protection, and the ampacity is shown in <i>Figure 30</i> below.
+</p>
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax" colspan="6"><span style="font-weight:bolder">AMPACITY CHART</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bolder">AWG</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bolder">Mili-Ohms /FT</span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:bolder">35º C Rise</span></td>
+    <td class="tg-0lax" colspan="2"><span style="font-weight:bolder">10º C Rise</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:bolder">Amps</span></td>
+    <td class="tg-0lax"><span style="font-weight:bolder">Max Feet</span></td>
+    <td class="tg-0lax"><span style="font-weight:bolder">Amps</span></td>
+    <td class="tg-0lax"><span style="font-weight:bolder">Max Feet</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">2</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">0.0156</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">100</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">44</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">54</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">83</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">4</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">0.249</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">72</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">39</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">40</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">70</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">6</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">0.395</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">54</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">33</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">30</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">59</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">8</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">0.628</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">40</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">28</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">20</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">55</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">10</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">1</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">30</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">23</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">15</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">47</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">12</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">1.59</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">20</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">22</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">12.5</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">35</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">14</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">2.53</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">15</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">18</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">10</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">28</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">16</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">4.01</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">12.5</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">14</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">7</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">25</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">18</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">6.39</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">10</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">11</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">5</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">22</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">20</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">10.2</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">7</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">10</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">4</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">17</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">22</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">16.1</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">5</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">7</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">3</span></td>
+    <td class="tg-0lax"><span style="background-color:var(--bs-table-bg)">15</span></td>
+  </tr>
+</tbody></table>
+</center>
+<center><i>Figure 30: Amapcity Chart of Milspec Wires (PROWIREUSA, 2025)</i></center>
+
+<p style='text-align: justify'>
+The team anticipates only a 10ºC rise, so the fuse will be rated for 3A. Littelfuse axial lead and cartridge fuse average time current curves are shown below, which will be referenced to select the fuse.
+</p>
+
+<center><img src='../Figures/Fuse_T vs I plot.png'></center>
+<center><i>Figure 31: Average TIme Current Curves (Littelfuse, 2018)</i></center>
+
+<p style='text-align: justify'>
+1A fuse is selected as it has the lowest nominal cold resistance of 1580mOhms (Littelfuse, 2018) and takes approximately 0.1s to blow at 3A, which is suitable for the
+</p>
 
 #### Material
 _Compare different fuse materials, such as glass, ceramic, etc_
@@ -157,7 +288,12 @@ _Compare different fuse materials, such as glass, ceramic, etc_
 _Cylindrical, SMD, Blade, etc_
 
 ## Prototyping
-_Vertical mounting to prevent water accumulation if there is water ingress in TB enclosure, highlight Hirose Df63 series connector, easily replaceable fuse, conformal coating_
+<center><img src='../Figures/HV Distribution PCB 3D.png'></center>
+<center><i>Figure 32: 26 HV Distribution PCB</i></center>
+
+<p style='text-align: justify'>
+The PCB is vertically mounted to prevent water accumulation if there is water ingress in TB enclosure. Hirose DF63 series connectors are used to ensure stable wire harness connection, cartridge fuse holders are used for ease of fuse replacement, and Humiseal 1B73 conformal coating is applied for electrical insulation and moisture protection. <i>Figure 32</i> shows the 3D render of 26 HV Distribution PCB.
+</p>
 
 ---
 
