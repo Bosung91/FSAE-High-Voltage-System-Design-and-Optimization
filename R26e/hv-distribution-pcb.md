@@ -281,9 +281,6 @@ The team anticipates only a 10ºC rise, so the fuse will be rated for 3A. Littel
 1A fuse is selected as it has the lowest nominal cold resistance of 1580mOhms (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>) and takes approximately 0.1s to blow at 3A.
 </p>
 
-#### Material
-_Compare different fuse materials, such as glass, ceramic, etc_
-
 #### Form Factor
 _Cylindrical, SMD, Blade, etc_
 
