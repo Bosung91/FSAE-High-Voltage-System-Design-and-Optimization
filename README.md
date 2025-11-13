@@ -30,7 +30,7 @@ Mr. Lim Hong Wee
         2. [Simulation](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/precharge-discharge-pcb.html#simulation)
         3. [Transient Analysis](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/precharge-discharge-pcb.html#transient-analysis)
         4. [Prototyping](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/precharge-discharge-pcb.html#prototyping)
-    2. [Tractive Battery PDM](./R26e/tractive-battery-pdm.md)
+    2. [Tractive Battery PDM PCB](./R26e/tractive-battery-pdm.md)
         1. [Design](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/tractive-battery-pdm.html#design)
         2. [Simulation](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/tractive-battery-pdm.html#simulation)
         2. [Prototyping](https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/R26e/tractive-battery-pdm.html#prototyping)
