@@ -64,13 +64,13 @@ Using the testbench, following HV functionalities of R25Evo were tested:
 HV PCBs responsible for the above functionalities were installed in Tractive Battery enclosure as shown in <i>Figure 4</i> below.
 </p>  
 
-<center><img src='./Figures/R25E Tractive Battery Internals.jpg'></center>  
+<center><img src='./Figures/Breakdown of HV PCBs in TB Enclosure.png'></center>  
 <center><i>Figure 4: R25E Tractive Battery Enclosure Internals</i></center>  
 
 ---
 
 <p style='text-align: justify'>
-HV PCBs are: Precharge-Discharge PCB (blue), Tractive Battery PDM PCB (orange) and HV Distribution PCB (green).
+HV PCBs are: HV Distribution (green), TB PDM (orange) and Precharge-Discharge (blue).
 </p>
 
 ### R25Evo test run
