@@ -1,3 +1,8 @@
+<head>
+    <link rel='stylesheet' href='avatar.css'>
+</head>
+
+
 <center><img src='./Figures/NUS_logo_full-vertical.jpg'></center>  
 
 <center><img src='./Figures/NUS Formula SAE Logo.png'></center>  
@@ -6,7 +11,10 @@
 ## FTS-433: FSAE High Voltage System Design and Optimization
 Semester 1 AY/2025/2026
 
-**Submitted by**  
+<b>Submitted by</b>
+
+<img src='./Figures/proflile pic.jpg' alt='profile pic' class='avatar'>
+<br>
 Suh Bosung (A0258007H)  
 
 **Supervisor**  
