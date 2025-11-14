@@ -15,7 +15,9 @@ Semester 1 AY/2025/2026
 
 <img src='./Figures/proflile pic.jpg' alt='profile pic' class='avatar'>
 <br>
-Suh Bosung (A0258007H)  
+<p>
+Suh Bosung (A0258007H)
+</p>
 
 **Supervisor**  
 Mr. Lim Hong Wee  
