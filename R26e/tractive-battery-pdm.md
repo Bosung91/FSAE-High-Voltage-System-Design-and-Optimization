@@ -528,7 +528,7 @@ Total of 18 connectors are used on TB PDM PCB. Deustch Autosport connectors are 
 </p>
 
 <p style='text-align: justify'>
-R25Evo stopped approximately 20 times due to loose wire harness connections between TB PDM PCB to other components in TB enclosure. Hirose DF63 series connectors are chosen to deal with this issue as they present crimp profile and locking mechanism that ensure secure connection even under vibration. <i>Figure 25</i> shows the design of Hirose DF63 series connector. Refer to <a href='#'>Appendix #</a> for more detailed connector specifications.
+R25Evo stopped approximately 20 times due to loose wire harness connections between TB PDM PCB to other components in TB enclosure. Hirose DF63 series connectors are chosen to deal with this issue as they present crimp profile and locking mechanism that ensure secure connection even under vibration. <i>Figure 25</i> shows the design of Hirose DF63 series connector (<a href='https://drive.google.com/file/d/10Ltabzmpp26rV4KXxHFZl8xF2f_CsPVx/view?usp=sharing' target='_blank'>Hirose, 2025</a>).
 </p>
 
 <center><img src='../Figures/Hirose Vibration Resistant Feature.png'></center>
@@ -541,6 +541,12 @@ TB PDM PCB schematic is shown in <i>Figure 26</i>.
 </p>
 <center><img src='../Figures/Tractive Battery PDM PCB Schematic.png'></center>
 <center><i>Figure 26: 26 TB PDM PCB Schematic</i></center>
+
+<br>
+
+<p style='text-align: justify'>
+Refer to <a href='' target='_blank'>Appendix D</a> for calculations behind selecting the components.
+</p>
 
 ## Prototyping
 Deutsch Autosports connectors are panel mounted to TB enclosure for external connections, while Hirose DF63 series connectors are for internal connections within TB enclosure.

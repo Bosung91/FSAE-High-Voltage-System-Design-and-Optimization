@@ -130,7 +130,7 @@ There are a total of three <b>thermal insulators</b> making up the PCB layers: s
 </tbody>
 </table>
 </center>
-<center><i>Figure 11: Thermal Conductivities of PCB Layers</i></center>
+<center><i>Figure 11: Thermal Conductivities of PCB Layers (<a href='https://drive.google.com/file/d/1I35mYJ_RM4V20GFdI0O64CSFCwSgdaJc/view?usp=sharing' target='_blank'>Kasemsadeh, Heng, Ashara, 2019</a>)</i></center>
 
 <p style='text-align: justify'>
 As one can notice from <i>Figure 11</i>, placing heat sink on surface opposite to precharge resistors, as shown in <i>Figure 12</i> is <b>as ineffective as not placing the heat sink</b>, since the layers insulate heat generated from precharge resistors, preventing proper heat dissipation by the heat sink. Thus, the earlier comparison of datasheet and actual values is <b>invalid</b> since the resistors were not properly heat sinked.

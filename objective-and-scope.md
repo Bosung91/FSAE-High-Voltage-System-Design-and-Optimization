@@ -1,18 +1,9 @@
 # Objective and Scope
 
-## Team Goal
-<p style='text-align: justify'>
-Based on R25E's performance in 2025 FSAE Michigan, the team has formed the following goal:  
-<h3><center><i>Decrease average lap time in Endurance by <b>10%</b> through <b>improved reliability</b></i></center></h3>
-</p>
-
 ## High Voltage Department Goal
 <p style='text-align: justify'>
 To achieve the team goal, High Voltage (HV) department's goal is as following:  
 <h3><center><i><b>System integration and optimization</b> of CM200DX motor controller</i></center></h3>  
-
-Reliability can only be achieved when <b>CM200DX</b> is seamlessly integrated into the HV system. Once <b>CM200DX</b> is properly integrated, the team can then aim to decrease average lap time in endurance.
-</p>
 
 <p style='text-align: justify'>
 The testbed for <b>CM200DX</b> is called, <i>R25Evo</i>, as modifications have been made to R25E to integrate <b>CM200DX</b> into R25E powertrain architecture.  
