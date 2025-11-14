@@ -78,7 +78,7 @@ To determine whether overvoltage, overcurrent, or exceeding power limit or maxim
 <p style='text-align: justify'>
 Based on the comparison of parameters, resistor meltdown is <b>unlikely</b> due to underspeccing for R25Evo precharge circuit.  
 
-Refer to <a href='#'>Appendix #</a> for calculations of actual parameters.
+Refer to <a href='#'>Appendix A</a> for calculations of actual parameters.
 </p>
 
 ### Insufficient heat dissipation by heat sink

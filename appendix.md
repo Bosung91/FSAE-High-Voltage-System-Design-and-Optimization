@@ -1,5 +1,14 @@
 # Appendix
 ## A
+<center><img src='./Figures/Calculation_25 Precharge Resistor.png'></center>
+<center>Calculations for Power Dissipated and Max Operating Temp</center>
+
+<br>
+
+<center><img src='./Figures/Calculation_25 Precharge Resistor Current.png'></center>
+<center>Calculation for Max Operating Current</center>
+
+## B
 <center><img src='./Figures/Calculation_Precharge-Discharge.png'></center>
 <center>Calculations for Updated LV Components on Precharge-Discharge PCB</center>
 
@@ -13,7 +22,7 @@
 <center><img src='./Figures/Calculation_Heat Sink.png'></center>
 <center>Calculation for Heat Sink</center>
 
-## B
+## C
 <center><img src='./Figures/Altium SPICE_Precharge Schematic.png'></center>
 <center>Schematic Setup for SPICE Simulation</center>
 
@@ -41,11 +50,11 @@
 
 - Used trapezoidal method to approximate area under the curve to calculate average power dissipated
 
-## C
+## D
 <center><img src='./Figures/Calculation_ESF.png'></center>
 <center>ESF Calculation</center>
 
-## D
+## E
 <center><img src='./Figures/Calculation_TB PDM.png'></center>
 <center>Calculations for LV Components on TB PDM PCB</center>
 

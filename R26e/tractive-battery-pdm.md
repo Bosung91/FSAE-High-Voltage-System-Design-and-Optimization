@@ -545,7 +545,7 @@ TB PDM PCB schematic is shown in <i>Figure 26</i>.
 <br>
 
 <p style='text-align: justify'>
-Refer to <a href='' target='_blank'>Appendix D</a> for calculations behind selecting the components.
+Refer to <a href='' target='_blank'>Appendix E</a> for calculations behind selecting the components.
 </p>
 
 ## Prototyping
