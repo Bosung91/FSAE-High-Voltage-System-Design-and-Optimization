@@ -19,7 +19,10 @@ Introducing a new motor controller to an existing HV architecture is a tremendou
 
 <br>
 
+<p style='text-align: justify'>
 For HV System Design and Optimization, emphasis is on the following tasks:
+</p>
+
 1. Finalise EE shelf, PCBs for R25Evo & R26E, wires for R25Evo
 2. R25Evo testbench
 3. R25Evo test run  
