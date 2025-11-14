@@ -5,13 +5,17 @@
 Purpose of HV Distribution PCB is to provide branched HV paths to systems that require HV. FSAE rule EV.6.6.6 states that lower stream conductors with lower ampacity must be fused.
 </p>
 <center><img src='../Figures/Rules_Overcurrent Protection.png'></center>
-<center><i>Figure 28: FSAE Rule EV.6.6.6</i></center>
+<center><i>Figure 29: FSAE Rule EV.6.6.6</i></center>
+
+<br>
 
 <p style='text-align: justify'>
-Schematic designed for HV Distribution is shown in <i>Figure 28</i>, which mainly consists of connectors, fuses and resistors.
+Schematic designed for HV Distribution is shown in <i>Figure 29</i>, which mainly consists of connectors, fuses and resistors.
 </p>
 <center><img src='../Figures/HV Distribution PCB Schematic.png'></center>
-<center><i>Figure 29: 26 HV Distribution PCB Schematic</i></center>
+<center><i>Figure 30: 26 HV Distribution PCB Schematic</i></center>
+
+<br>
 
 HV Distribution PCB provides HV to the following systems:
 - Precharge-Discharge PCB
@@ -140,7 +144,9 @@ HV Distribution PCB provides HV to the following systems:
   </tr>
 </tbody></table>
 </center>
-<center><i>Figure 30: HV Distribution System Requirements</i></center>
+<center><i>Figure 31: HV Distribution System Requirements</i></center>
+
+<br>
 
 <p style='text-align: justify'>
 Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses are added only for systems without external overcurrent protection. The systems that require overcurrent protection are: IMD, Energy Meter, Voltage Indicator and Ready to Move PCB.
@@ -150,7 +156,7 @@ Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses a
 #### Current
 _Show AWG22 ampacity (3A ~ 5A) & fuse average time current curves_
 <p style='text-align: justify'>
-AWG 22 wires are used for the systems that require overcurrent protection, and the ampacity is shown in <i>Figure 30</i> below.
+AWG 22 wires are used for the systems that require overcurrent protection, and the ampacity is shown in <i>Figure 32</i> below.
 </p>
 <center>
 <style type="text/css">
@@ -268,14 +274,18 @@ AWG 22 wires are used for the systems that require overcurrent protection, and t
   </tr>
 </tbody></table>
 </center>
-<center><i>Figure 31: Amapcity Chart of Milspec Wires (<a href='https://www.prowireusa.com/tefzel-amperage-chart' target='_blank'>PROWIREUSA, 2025</a>)</i></center>
+<center><i>Figure 32: Amapcity Chart of Milspec Wires (<a href='https://www.prowireusa.com/tefzel-amperage-chart' target='_blank'>PROWIREUSA, 2025</a>)</i></center>
+
+<br>
 
 <p style='text-align: justify'>
 The team anticipates only a 10ºC rise, so the fuse will be rated for 3A. Littelfuse axial lead and cartridge fuse average time current curves are shown below, which will be referenced to select the fuse.
 </p>
 
 <center><img src='../Figures/Fuse_T vs I plot.png'></center>
-<center><i>Figure 32: Average TIme Current Curves (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>)</i></center>
+<center><i>Figure 33: Average TIme Current Curves (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>)</i></center>
+
+<br>
 
 <p style='text-align: justify'>
 1A fuse is selected as it has the lowest nominal cold resistance of 1580mOhms (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>) and takes approximately 0.1s to blow at 3A.
@@ -286,10 +296,12 @@ _Cylindrical, SMD, Blade, etc_
 
 ## Prototyping
 <center><img src='../Figures/HV Distribution PCB 3D.png'></center>
-<center><i>Figure 33: 26 HV Distribution PCB</i></center>
+<center><i>Figure 34: 26 HV Distribution PCB</i></center>
+
+<br>
 
 <p style='text-align: justify'>
-The PCB is vertically mounted to prevent water accumulation if there is water ingress in TB enclosure. Hirose DF63 series connectors are used to ensure stable wire harness connection, cartridge fuse holders are used for ease of fuse replacement, and Humiseal 1B73 conformal coating is applied for electrical insulation and moisture protection. <i>Figure 32</i> shows the 3D render of 26 HV Distribution PCB.
+The PCB is vertically mounted to prevent water accumulation if there is water ingress in TB enclosure. Hirose DF63 series connectors are used to ensure stable wire harness connection, cartridge fuse holders are used for ease of fuse replacement, and Humiseal 1B73 conformal coating is applied for electrical insulation and moisture protection. <i>Figure 34</i> shows the 3D render of 26 HV Distribution PCB.
 </p>
 
 ---

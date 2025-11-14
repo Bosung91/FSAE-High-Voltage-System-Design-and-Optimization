@@ -28,7 +28,7 @@ Introducing a new motor controller to an existing HV architecture is a tremendou
 <center><img src='./Figures/Timeline.png'></center>  
 <center><i>Figure 2: Timeline</i></center>
 
----
+<br>
 
 For HV System Design and Optimization, emphasis is on the following tasks:
 1. Finalise EE shelf, PCBs for R25Evo & R26E, wires for R25Evo
@@ -50,7 +50,7 @@ R25Evo testbench was designed to validate compatibility and functionality of exi
 <center><img src='./Figures/R25Evo Testbench.jpg'></center>  
 <center><i>Figure 3: R25Evo Testbench</i></center>
 
----
+<br>
 
 <p style='text-align: justify'>
 The testbench was set up as shown in <i>Figure 3</i>, which represents the entire powertrain architecture in R25E.</p>  
@@ -67,7 +67,7 @@ HV PCBs responsible for the above functionalities were installed in Tractive Bat
 <center><img src='./Figures/Breakdown of HV PCBs in TB Enclosure.png'></center>  
 <center><i>Figure 4: R25E Tractive Battery Enclosure Internals</i></center>  
 
----
+<br>
 
 <p style='text-align: justify'>
 HV PCBs are: HV Distribution (green), TB PDM (orange) and Precharge-Discharge (blue).

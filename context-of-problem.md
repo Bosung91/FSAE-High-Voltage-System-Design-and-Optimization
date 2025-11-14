@@ -8,6 +8,8 @@ Based on R25E's performance in Formula SAE EV 2025, the team identified that mot
 <center><img src='./Figures/26 Vehicle TS Schematic.jpg'></center>
 <center><i>Figure 5: R26E Tractive System</i></center>  
 
+<br>
+
 <p style='text-align: justify'>
 As mentioned in the previous section, major HV components affected when <b>CM200DX</b> is integrated to R26E Tractive System are within the Tractive Battery Enclosure, as shown in <i>Figure 5</i> above.
 </p>
@@ -17,7 +19,9 @@ As mentioned in the previous section, major HV components affected when <b>CM200
 <p style='text-align: justify'>The team analysed <b>BAMOCAR</b>'s competition accleration performance based on the data extracted using <b>Energy Meter</b> and discovered as under:</p>  
 
 <center><img src='./Figures/R25E Competition Acceleration Data.png'></center>  
-<center><i>Figure 6: R25E Competition Acceleration Data</i></center>  
+<center><i>Figure 6: R25E Competition Acceleration Data</i></center>
+
+<br>
 
 #### Key Parameters
 To aid understanding of <i>Figure 6</i>, the following relationships are introduced:

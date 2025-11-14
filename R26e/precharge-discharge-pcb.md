@@ -9,6 +9,8 @@ Based on the rules (Figure 7) and lessons learned from R25Evo, the following sch
 <center><img src='../Figures/26 Precharge-Discharge PCB Schematic.png'></center>
 <center><i>Figure 17: 26 Precharge-Discharge PCB Schematic</i></center>
 
+<br>
+
 ### Components
 ### LV
 #### Diodes (D1~D6)
@@ -81,6 +83,8 @@ Falstad simulation has been set up to validate the functionality of the schemati
 </p>
 <center><img src='../Figures/Falstad_Precharge-Discharge.png'></center>
 <center><i>Figure 18: <a href='https://tinyurl.com/2cjbjfbx' target='_blank'>Precharge-Discharge PCB Simulation</a></i></center>
+
+<br>
 
 <p style='text-align: justify'>
 <i>Figure 19</i> shows all possible scenarios of Precharge-Discharge PCB functionality.
@@ -156,12 +160,16 @@ Falstad simulation has been set up to validate the functionality of the schemati
 </center>
 <center><i>Figure 19: Precharge-Discharge PCB Truth Table</i></center>
 
+<br>
+
 ## Transient Analysis
 <p style='text-align: justify'>
 R25Evo testing exposed insufficient cooling by heat sinks, which led to failure of Precharge resistors. Transient analysis has been conducted on Precharge resistor to determine whether peak power during transient state will exceed its maximum power rating. <i>Figure 19</i> shows power against time plot of Precharge resistor.
 </p>
 <center><img src='../Figures/Altium SPICE_Precharge Resistor P-t Plot.png'></center>
 <center><i>Figure 20: P vs t Plot of Precharge Resistor</i></center>
+
+<br>
 
 The findings are as under:
 - Peak Power: 86.0W
@@ -173,6 +181,8 @@ The peak power is lower than the resistor maximum power rating of 100W, and the 
 <center><img src='../Figures/ESF Precharge Segment.png'></center>
 <center><i>Figure 21: ESF Precharge Segment</i></center>
 
+<br>
+
 <p style='text-align: justify'>
 Detailed calculations behind ESF are shown in <a href='#' target='_blank'>Appendix #</a>.
 </p>
@@ -183,6 +193,8 @@ Based on the schematic, specced components and simulation results, 26 Precharge-
 </p>
 <center><img src='../Figures/26 Precharge-Discharge PCB Front View.png'></center>
 <center><i>Figure 22: 26 Precharge-Discharge PCB</i></center>
+
+<br>
 
 <p style='text-align: justify'>
 Humiseal 1B73 conformal coat is applied to ensure electrical isolation from surrounding components and to keep galvanic isolation spacing to a minimum of 4 mm as stated in FSAE rules EV.6.5.7. It is mounted vertically to prevent water accumulation on it in case there is water ingress in TB enclosure.

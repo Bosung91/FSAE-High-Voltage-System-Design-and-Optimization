@@ -500,6 +500,8 @@ The primary purpose of TB PDM PCB is to distribute power and signals within the 
 </center>
 <center><i>Figure 24: TB PDM PCB System Requirements</i></center>
 
+<br>
+
 ### Trace Width
 <p style='text-align: justify'>
 Based on the system requirements, PCB copper trace width has been calculated using Altium Designer under IPC-2221 standard.
@@ -522,24 +524,35 @@ Termination resistors are used for CAN2 bus lines, pull-down resistor is used fo
 
 ### Connectors
 <p style='text-align: justify'>
-Deustch Autosport connectors are used due to their superior pin density, vibration resistance and waterproofness (motorsport grade), while Hirose DF63 series connectors are used due to their compactness and vibration resistance (meant for motors and motor drives). Total of 18 connectors are used on TB PDM PCB. Refer to <a href='#'>Appendix #</a> for connector specifications.
+Total of 18 connectors are used on TB PDM PCB. Deustch Autosport connectors are used due to their superior pin density, vibration resistance and waterproofness (motorsport grade), while Hirose DF63 series connectors are used due to their compactness and vibration resistance (<a href='https://www.hirose.com/en/product/series/DF63' target='_blank'>meant for motors and motor drives</a>).
 </p>
+
+<p style='text-align: justify'>
+R25Evo stopped approximately 20 times due to loose wire harness connections between TB PDM PCB to other components in TB enclosure. Hirose DF63 series connectors are chosen to deal with this issue as they present crimp profile and locking mechanism that ensure secure connection even under vibration. Figure 25 shows the design of Hirose DF63 series connector. Refer to <a href='#'>Appendix #</a> for more detailed connector specifications.
+</p>
+
+<center><img src='../Figures/Hirose Vibration Resistant Feature.png'></center>
+<center><i>Figure 25: Hirose DF63 Vibration Resistant Features (<a href='https://drive.google.com/file/d/10Ltabzmpp26rV4KXxHFZl8xF2f_CsPVx/view?usp=sharing' target='_blank'>Hirose, 2025</a>)</i></center>
+
+<br>
 
 <p style='text-align: justify'>
 TB PDM PCB schematic is shown in <i>Figure 24</i>.
 </p>
 <center><img src='../Figures/Tractive Battery PDM PCB Schematic.png'></center>
-<center><i>Figure 25: 26 TB PDM PCB Schematic</i></center>
+<center><i>Figure 26: 26 TB PDM PCB Schematic</i></center>
 
 ## Prototyping
 Deutsch Autosports connectors are panel mounted to TB enclosure for external connections, while Hirose DF63 series connectors are for internal connections within TB enclosure.
 <center><img src='../Figures/Tractive Battery PDM PCB Front.png'></center>
-<center><i>Figure 26: 26 TB PDM PCB Front View</i></center>
+<center><i>Figure 27: 26 TB PDM PCB Front View</i></center>
 
----
+<br>
 
 <center><img src='../Figures/Tractive Battery PDM PCB Rear.png'></center>
-<center><i>Figure 27: 26 TB PDM PCB Rear View</i></center>
+<center><i>Figure 28: 26 TB PDM PCB Rear View</i></center>
+
+<br>
 
 <p style='text-align: justify'>
 The board is mounted vertically to prevent water accumulation on it in case there is water ingress in TB enclosure. Humiseal 1B73 conformal coat is applied for electrical insulation and moisture protection.
