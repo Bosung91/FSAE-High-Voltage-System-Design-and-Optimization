@@ -3,7 +3,7 @@
 ## Design
 ### Schematic
 <p style='text-align: justify'>
-Based on the rules (Figure 7) and lessons learned from R25Evo, the following schematic has been designed as shown in <i>Figure 16</i>.
+Based on the rules (Figure 7) and lessons learned from R25Evo, the following schematic has been designed as shown in <i>Figure 17</i>.
 </p>
 
 <center><img src='../Figures/26 Precharge-Discharge PCB Schematic.png'></center>
@@ -20,7 +20,7 @@ Surge diodes are connected in anti-parallel to either relay coils, contacts or s
 
 #### MOSFET (Q1, Q3, Q4, PMOS2)
 <p style='text-align: justify'>
-MOSFETs are used to control the analogue logic of the board. Refer to <i>Figure 14</i> for the logic of the board. PMOS is used to control Precharge Relay due to its simpler gate drive requirements for high-side switching.
+MOSFETs are used to control the analogue logic of the board. Refer to <i>Figure 15</i> for the logic of the board. PMOS is used to control Precharge Relay due to its simpler gate drive requirements for high-side switching.
 </p>
 
 #### Capacitor (C1)
@@ -79,7 +79,7 @@ Hirose DF63 series PCB through-hole 2-pin connectors rated for 630VDC and 8A are
 
 ## Simulation
 <p style='text-align: justify'>
-Falstad simulation has been set up to validate the functionality of the schematic as shown in <i>Figure 17</i>.
+Falstad simulation has been set up to validate the functionality of the schematic as shown in <i>Figure 18</i>.
 </p>
 <center><img src='../Figures/Falstad_Precharge-Discharge.png'></center>
 <center><i>Figure 18: <a href='https://tinyurl.com/2cjbjfbx' target='_blank'>Precharge-Discharge PCB Simulation</a></i></center>
@@ -164,7 +164,7 @@ Falstad simulation has been set up to validate the functionality of the schemati
 
 ## Transient Analysis
 <p style='text-align: justify'>
-R25Evo testing exposed insufficient cooling by heat sinks, which led to failure of Precharge resistors. Transient analysis has been conducted on Precharge resistor to determine whether peak power during transient state will exceed its maximum power rating. <i>Figure 19</i> shows power against time plot of Precharge resistor.
+R25Evo testing exposed insufficient cooling by heat sinks, which led to failure of Precharge resistors. Transient analysis has been conducted on Precharge resistor to determine whether peak power during transient state will exceed its maximum power rating. <i>Figure 20</i> shows power against time plot of Precharge resistor.
 </p>
 <center><img src='../Figures/Altium SPICE_Precharge Resistor P-t Plot.png'></center>
 <center><i>Figure 20: P vs t Plot of Precharge Resistor</i></center>
@@ -176,7 +176,7 @@ The findings are as under:
 - Average Power: 10.8W
 
 <p style='text-align: justify'>
-The peak power is lower than the resistor maximum power rating of 100W, and the average power dissipated is in the same order of magnitude as Electric Systems Form (ESF) value of 18.2W; ESF is a document that the team needs to submit for technical inspection prior to competition. <i>Figure 20</i> shows the Precharge segment of ESF. Detailed analysis setup and data extraction are in <a href='#' target='_blank'>Appendix #</a>.
+The peak power is lower than the resistor maximum power rating of 100W, and the average power dissipated is in the same order of magnitude as Electric Systems Form (ESF) value of 18.2W; ESF is a document that the team needs to submit for technical inspection prior to competition. <i>Figure 21</i> shows the Precharge segment of ESF. Detailed analysis setup and data extraction are in <a href='#' target='_blank'>Appendix #</a>.
 </p>
 <center><img src='../Figures/ESF Precharge Segment.png'></center>
 <center><i>Figure 21: ESF Precharge Segment</i></center>
@@ -189,7 +189,7 @@ Detailed calculations behind ESF are shown in <a href='#' target='_blank'>Append
 
 ## Prototyping
 <p style='text-align: justify'>
-Based on the schematic, specced components and simulation results, 26 Precharge-Discharge PCB has been prototyped as shown in <i>Figure 21</i>.
+Based on the schematic, specced components and simulation results, 26 Precharge-Discharge PCB has been prototyped as shown in <i>Figure 22</i>.
 </p>
 <center><img src='../Figures/26 Precharge-Discharge PCB Front View.png'></center>
 <center><i>Figure 22: 26 Precharge-Discharge PCB</i></center>
