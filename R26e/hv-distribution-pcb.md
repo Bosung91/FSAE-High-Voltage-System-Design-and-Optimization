@@ -154,7 +154,6 @@ Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses a
 
 ### Fuse Selection
 #### Current
-_Show AWG22 ampacity (3A ~ 5A) & fuse average time current curves_
 <p style='text-align: justify'>
 AWG 22 wires are used for the systems that require overcurrent protection, and the ampacity is shown in <i>Figure 32</i> below.
 </p>
@@ -279,29 +278,72 @@ AWG 22 wires are used for the systems that require overcurrent protection, and t
 <br>
 
 <p style='text-align: justify'>
-The team anticipates only a 10ºC rise, so the fuse will be rated for 3A. Littelfuse axial lead and cartridge fuse average time current curves are shown below, which will be referenced to select the fuse.
+The team anticipates only a 10ºC rise, so the fuse needs to be rated for 3A. Littelfuse axial lead and cartridge fuse average time current curves are shown below, which will be referenced to select the fuse.
 </p>
 
 <center><img src='../Figures/Fuse_T vs I plot.png'></center>
-<center><i>Figure 33: Average TIme Current Curves (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>)</i></center>
+<center><i>Figure 33: Average Time Current Curves (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>)</i></center>
 
 <br>
 
 <p style='text-align: justify'>
-1A fuse is selected as it has the lowest nominal cold resistance of 1580mOhms (<a href='https://drive.google.com/file/d/1TmnjSHS8LeXFVinmKBrlm3u4hg1fqOzP/view?usp=sharing' target='_blank'>Littelfuse, 2018</a>) and takes approximately 0.1s to blow at 3A.
+Littelfuse is the sponsor for the team, and it offers cartridge fuses with 3 different ratings only as shown in <i>Figure 33</i>. Based on the options available, 1A fuse is chosen as it has the highest current rating. Based on the system requirements and AWG 22 wire ampacity, 1A fuse rating is high enough to allow normal operation and low enough to protect the wire from overcurrent.
 </p>
 
 #### Form Factor
-_Cylindrical, SMD, Blade, etc_
+<p style='text-align: justify'>
+Cartridge and blade fuses are common for automotive applications, but for FSAE electric race car, cartridge fuse has been chosen according to criteria shown in <i>Figure 34</i>.
+</p>
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:0px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-1wig">Requirement</th>
+    <th class="tg-1wig">Cartridge Fuse</th>
+    <th class="tg-1wig">Blade Fuse</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">HV rating</td>
+    <td class="tg-0lax">✅ 1000 V</td>
+    <td class="tg-0lax">❌ low-voltage only</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Interrupt rating</td>
+    <td class="tg-0lax">✅ high (10kA)</td>
+    <td class="tg-0lax">❌ low</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Thermal stability</td>
+    <td class="tg-0lax">✅ good (MIL STD 202, Method 107)</td>
+    <td class="tg-0lax">❌ limited</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mechanical robustness</td>
+    <td class="tg-0lax">✅ high (MIL STD 202, Method 201)</td>
+    <td class="tg-0lax">❌ lower</td>
+  </tr>
+</tbody>
+</table>
+</center>
+<center><i>Figure 34: Cartridge Fuse vs Blade Fuse</i></center>
 
 ## Prototyping
 <center><img src='../Figures/HV Distribution PCB 3D.png'></center>
-<center><i>Figure 34: 26 HV Distribution PCB</i></center>
+<center><i>Figure 35: 26 HV Distribution PCB</i></center>
 
 <br>
 
 <p style='text-align: justify'>
-The PCB is vertically mounted to prevent water accumulation if there is water ingress in TB enclosure. Hirose DF63 series connectors are used to ensure stable wire harness connection, cartridge fuse holders are used for ease of fuse replacement, and Humiseal 1B73 conformal coating is applied for electrical insulation and moisture protection. <i>Figure 34</i> shows the 3D render of 26 HV Distribution PCB.
+The PCB is vertically mounted to prevent water accumulation if there is water ingress in TB enclosure. Hirose DF63 series connectors are used to ensure stable wire harness connection, cartridge fuse holders are used for ease of fuse replacement, and Humiseal 1B73 conformal coating is applied for electrical insulation and moisture protection. <i>Figure 35</i> shows the 3D render of 26 HV Distribution PCB.
 </p>
 
 ---
