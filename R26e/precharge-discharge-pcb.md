@@ -77,7 +77,7 @@ MOV is used to protect Discharge Relay from output spike voltages due to inducta
 Hirose DF63 series PCB through-hole 2-pin connectors rated for 630VDC and 8A are used.
 </p>
 
-Refer to <a href='#' target='_blank'>Appendix B</a> for calculations behind selecting the components.
+Refer to <a href='https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/appendix.html#b' target='_blank'>Appendix B</a> for calculations behind selecting the components.
 
 ## Simulation
 <p style='text-align: justify'>
@@ -178,7 +178,7 @@ The findings are as under:
 - Average Power: 10.8W
 
 <p style='text-align: justify'>
-The peak power is lower than the resistor maximum power rating of 100W, and the average power dissipated is in the same order of magnitude as Electric Systems Form (ESF) value of 18.2W; ESF is a document that the team needs to submit for technical inspection prior to competition. <i>Figure 21</i> shows the Precharge segment of ESF. Detailed analysis setup and data extraction are in <a href='#' target='_blank'>Appendix C</a>.
+The peak power is lower than the resistor maximum power rating of 100W, and the average power dissipated is in the same order of magnitude as Electric Systems Form (ESF) value of 18.2W; ESF is a document that the team needs to submit for technical inspection prior to competition. <i>Figure 21</i> shows the Precharge segment of ESF. Detailed analysis setup and data extraction are in <a href='https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/appendix.html#c' target='_blank'>Appendix C</a>.
 </p>
 <center><img src='../Figures/ESF Precharge Segment.png'></center>
 <center><i>Figure 21: ESF Precharge Segment</i></center>
@@ -186,7 +186,7 @@ The peak power is lower than the resistor maximum power rating of 100W, and the 
 <br>
 
 <p style='text-align: justify'>
-Detailed calculations behind ESF are shown in <a href='#' target='_blank'>Appendix D</a>.
+Detailed calculations behind ESF are shown in <a href='https://bosung91.github.io/FSAE-High-Voltage-System-Design-and-Optimization/appendix.html#d' target='_blank'>Appendix D</a>.
 </p>
 
 ## Prototyping
