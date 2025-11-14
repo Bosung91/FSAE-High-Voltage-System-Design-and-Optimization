@@ -2,7 +2,7 @@
 
 ## High Voltage Department Goal
 <p style='text-align: justify'>
-To achieve the team goal, High Voltage (HV) department's goal is as following:  
+To achieve the team goal, High Voltage (HV) department's goal is as following:</p>
 <h3><center><i><b>System integration and optimization</b> of CM200DX motor controller</i></center></h3>
 
 <p style='text-align: justify'>
@@ -19,10 +19,7 @@ Introducing a new motor controller to an existing HV architecture is a tremendou
 
 <br>
 
-<p style='text-align: justify'>
 For HV System Design and Optimization, emphasis is on the following tasks:
-</p>
-
 1. Finalise EE shelf, PCBs for R25Evo & R26E, wires for R25Evo
 2. R25Evo testbench
 3. R25Evo test run  
