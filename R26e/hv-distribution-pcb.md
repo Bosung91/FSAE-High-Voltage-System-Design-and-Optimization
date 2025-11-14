@@ -149,13 +149,13 @@ HV Distribution PCB provides HV to the following systems:
 <br>
 
 <p style='text-align: justify'>
-Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses are added only for systems without external overcurrent protection. The systems that require overcurrent protection are: IMD, Energy Meter, Voltage Indicator and Ready to Move PCB.
+Based on the system requirements shown in <i>Figure 29</i> and EV.6.6.6, fuses are added only for conductors connecting to systems without external overcurrent protection. The systems that require conductor overcurrent protection are: IMD, Energy Meter, Voltage Indicator and Ready to Move PCB.
 </p>
 
 ### Fuse Selection
 #### Current
 <p style='text-align: justify'>
-AWG 22 wires are used for the systems that require overcurrent protection, and the ampacity is shown in <i>Figure 32</i> below.
+AWG 22 wires are used for the systems that require conductor overcurrent protection, and the ampacity is shown in <i>Figure 32</i> below.
 </p>
 <center>
 <style type="text/css">
@@ -287,7 +287,7 @@ The team anticipates only a 10ºC rise, so the fuse needs to be rated for 3A. Li
 <br>
 
 <p style='text-align: justify'>
-Littelfuse is the sponsor for the team, and it offers cartridge fuses with 3 different ratings only as shown in <i>Figure 33</i>. Based on the options available, 1A fuse is chosen as it has the highest current rating. Based on the system requirements and AWG 22 wire ampacity, 1A fuse rating is high enough to allow normal operation and low enough to protect the wire from overcurrent.
+Littelfuse is the sponsor for the team, and it offers cartridge fuses with 3 different ratings only as shown in <i>Figure 33</i>. Based on the options available, 1A fuse is chosen as it has the highest current rating. Based on the system requirements and AWG 22 wire ampacity, 1A fuse rating is high enough to allow normal operation and low enough to protect the conductor from overcurrent.
 </p>
 
 #### Form Factor
