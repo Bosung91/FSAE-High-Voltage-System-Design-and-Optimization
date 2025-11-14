@@ -133,7 +133,7 @@ There are a total of three <b>thermal insulators</b> making up the PCB layers: s
 <center><i>Figure 11: Thermal Conductivities of PCB Layers</i></center>
 
 <p style='text-align: justify'>
-As one can notice from <i>Figure 10</i>, placing heat sink on surface opposite to precharge resistors, as shown in <i>Figure 11</i> is <b>as ineffective as not placing the heat sink</b>, since the layers insulate heat generated from precharge resistors, preventing proper heat dissipation by the heat sink. Thus, the earlier comparison of datasheet and actual values is <b>invalid</b> since the resistors were not properly heat sinked.
+As one can notice from <i>Figure 11</i>, placing heat sink on surface opposite to precharge resistors, as shown in <i>Figure 12</i> is <b>as ineffective as not placing the heat sink</b>, since the layers insulate heat generated from precharge resistors, preventing proper heat dissipation by the heat sink. Thus, the earlier comparison of datasheet and actual values is <b>invalid</b> since the resistors were not properly heat sinked.
 </p>
 
 <center><img src='../Figures/Burnt Precharge Resistors Side View.jpg'></center>
@@ -154,14 +154,14 @@ R25Evo lost power intermittently mid drive.
 <center><i>Figure 13: Abnormal Precharge Signal</i></center>
 
 <p style='text-align: justify'>
-Precharge signal (blue graph) oscillated as shown in <i>Figure 12</i> due to <b><u>loose connection from 25 TB PDM to IR+.</u></b>
+Precharge signal (blue graph) oscillated as shown in <i>Figure 13</i> due to <b><u>loose connection from 25 TB PDM to IR+.</u></b>
 </p>
 
 <center><img src='../Figures/Precharge Signal_Normal.png'></center>
 <center><i>Figure 14: Normal Precharge Signal</i></center>
 
 <p style='text-align: justify'>
-The precharge signal state should be set as HIGH by ECU only when car is starting, then be set as LOW for the rest of the run as shown in <i>Figure 13</i>. Detailed precharge sequence is explained in <i>Figure 14</i> below.
+The precharge signal state should be set as HIGH by ECU only when car is starting, then be set as LOW for the rest of the run as shown in <i>Figure 14</i>. Detailed precharge sequence is explained in <i>Figure 15</i> below.
 </p>
 
 <center>
