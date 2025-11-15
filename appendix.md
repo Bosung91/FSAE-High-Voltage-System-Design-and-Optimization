@@ -58,6 +58,9 @@
 <center><img src='./Figures/Calculation_TB PDM.png'></center>
 <center>Calculations for LV Components on TB PDM PCB</center>
 
+- Orion BMS Wiring Manual pg. 18 & 25: https://drive.google.com/file/d/1kc9kj1fwLPah7sQ16keOZfxgWKsEu6ym/view?usp=sharing
+- SAE J1772-2010 pg. 18: https://drive.google.com/file/d/1gb4QyM3UahHCrnikfVxCJfKft86Byy6G/view?usp=sharing
+
 ---
 
 [Previous Section: References](references.md)
