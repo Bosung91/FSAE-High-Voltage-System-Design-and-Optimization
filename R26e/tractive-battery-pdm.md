@@ -1,4 +1,4 @@
-# Tractive Battery PDM PCB
+# Tractive Battery PDM PCB test
 
 ## Design
 <p style='text-align: justify'>
