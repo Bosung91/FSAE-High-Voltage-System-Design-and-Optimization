@@ -10,7 +10,7 @@
 # **CDE4301 Report**
 ## FTS-433: FSAE High Voltage System Design and Optimization
 Semester 1 AY/2025/2026
-TEST
+
 <b>Submitted by</b>
 
 <img src='./Figures/proflile pic.jpg' alt='profile pic' class='avatar'>
